@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.29.0" platform="mac">
+	<Settings>
+		<Setting name="Use Pasv mode">1</Setting>
+		<Setting name="Limit local ports">0</Setting>
+		<Setting name="Limit ports low">6000</Setting>
+		<Setting name="Limit ports high">7000</Setting>
+		<Setting name="External IP mode">0</Setting>
+		<Setting name="External IP" />
+		<Setting name="External address resolver">http://ip.filezilla-project.org/ip.php</Setting>
+		<Setting name="Last resolved IP" />
+		<Setting name="No external ip on local conn">1</Setting>
+		<Setting name="Pasv reply fallback mode">0</Setting>
+		<Setting name="Timeout">180</Setting>
+		<Setting name="Logging Debug Level">0</Setting>
+		<Setting name="Logging Raw Listing">0</Setting>
+		<Setting name="fzsftp executable" />
+		<Setting name="Allow transfermode fallback">1</Setting>
+		<Setting name="Reconnect count">2</Setting>
+		<Setting name="Reconnect delay">5</Setting>
+		<Setting name="Enable speed limits">0</Setting>
+		<Setting name="Speedlimit inbound">2048</Setting>
+		<Setting name="Speedlimit outbound">6144</Setting>
+		<Setting name="Speedlimit burst tolerance">0</Setting>
+		<Setting name="View hidden files">0</Setting>
+		<Setting name="Preserve timestamps">1</Setting>
+		<Setting name="Socket recv buffer size (v2)">4194304</Setting>
+		<Setting name="Socket send buffer size (v2)">262144</Setting>
+		<Setting name="FTP Keep-alive commands">0</Setting>
+		<Setting name="FTP Proxy type">0</Setting>
+		<Setting name="FTP Proxy host">localhost</Setting>
+		<Setting name="FTP Proxy user" />
+		<Setting name="FTP Proxy password" />
+		<Setting name="FTP Proxy login sequence" />
+		<Setting name="SFTP keyfiles" />
+		<Setting name="Proxy type">0</Setting>
+		<Setting name="Proxy host">127.0.0.1</Setting>
+		<Setting name="Proxy port">2100</Setting>
+		<Setting name="Proxy user" />
+		<Setting name="Proxy password" />
+		<Setting name="Logging file" />
+		<Setting name="Logging filesize limit">10</Setting>
+		<Setting name="Trusted root certificate" />
+		<Setting name="Size format">3</Setting>
+		<Setting name="Size thousands separator">1</Setting>
+		<Setting name="Size decimal places">1</Setting>
+		<Setting name="Number of Transfers">1</Setting>
+		<Setting name="Ascii Binary mode">0</Setting>
+		<Setting name="Auto Ascii files">am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsi|pas|patch|php|phtml|pl|po|py|qmail|sh|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
+		<Setting name="Auto Ascii no extension">1</Setting>
+		<Setting name="Auto Ascii dotfiles">1</Setting>
+		<Setting name="Theme">opencrystal/</Setting>
+		<Setting name="Language Code" />
+		<Setting name="Last Server Path">1 0 11 public_html 1 p</Setting>
+		<Setting name="Concurrent download limit">0</Setting>
+		<Setting name="Concurrent upload limit">0</Setting>
+		<Setting name="Update Check">1</Setting>
+		<Setting name="Update Check Interval">7</Setting>
+		<Setting name="Last automatic update check">2018-09-18 16:49:24</Setting>
+		<Setting name="Update Check New Version">nightly 2018-09-18 http://filezilla-project.org/nightlies/2018-09-18/x86_64-apple-darwin13.4.0/FileZilla3.app.tar.bz2 10861252 sha512 b468bef638076840cd392b531ba0db1f220b8ae62b5963864fdc80e9737c62281ee82c59c8fc62b8d1708a92dd78c96c5fbf5b34f31cb0965f359f644873f7de 
+release 3.37.0 https://dl4.cdn.filezilla-project.org/FileZilla_3.37.0_macosx-x86.app.tar.bz2 10621590 sha512 13f66841dd26fcb2ee46ece0aaa825d4322a3854bc3d242e99f3045d4616c5458f5cdb2673f97cc984640fda9e4750a426b1039c7ac1db75a35fd44518f6d8de
+
+3.37.0 (2018-09-17)
+
+- Fix remote target path if uploading files through the search dialog
+
+3.37.0-rc1 (2018-09-10)
+
++ Use a cache for the system trust store to speed up connecting establishment on systems with huge certificate revocation lists in the system trust store
+- Fixed bug in GnuTLS causing crashes on connection establishment
+- Fixed enabled state of controls in the Site Manager if switching to a protocol not supporting the previously selected logontype
+
+3.36.0 (2018-08-27)
+
+- Fix --site-manager command-line argument
+- Fix potential crash with malformed directory listings
+- Fix potential crash if opening/closing tabs or starting the queue while directories are being renamed or deleted
+
+3.36.0-rc1 (2018-08-20)
+
++ Ask for explicit confirmation prior to falling back to insecure plaintext FTP if a server refuses to use TLS
++ Warn if an FTP server refuses TLS that is known from previous connections to be capable of TLS
+
+3.35.2 (2018-08-06)
+
+- Fix functionality of --site and --local command-line options
+- MSW: Fix local rename not updating file list
+- OS X: Fix compatibility with old CPUs not supporting SSE4
+
+3.35.1 (2018-07-23)
+
+- Fix context menu in search dialog
+
+3.35.0 (2018-07-23)
+
++ Improved appearance of activity indicators, sort direction indicators, and quick search panel buttons on high-DPI displays
+
+3.35.0-rc2 (2018-07-17)
+
+- OS X: Fix dependency problem in build system
+
+3.35.0-rc1 (2018-07-16)
+
++ Add option to settings dialog to have FileZilla restore tabs and connections after a restart
+- Fix initial size of Site Manager being too small on some systems
+
+3.34.0 (2018-06-17)
+
++ After deleting files, the focus rectangle now stays near the previously deleted file
+
+3.34.0-rc1 (2018-06-08)
+
++ Refactoring of the Site Manager internals
++ Moved protocol selection to the top in the Site Manager
++ Adjusted spacing in the Site Manager
++ Slightly reduced height of certificate details dialog
+- MSW: Properly quote the uninstall command in the registry
+- Updated builtin pugixml to version 1.9
+
+3.33.0 (2018-05-07)
+
+- MSW: Microsoft broke the ICopyHook interface in Windows 1803. Until Microsoft fixes the bug in Windows, drag &amp; drop from FileZilla into Explorer will not work on Windows 1803.
+
+3.33.0-rc1 (2018-04-27)
+
++ The contents of the transfer queue can now be sorted
++ SFTP: Support key files encrypted with aes256-ctr, e.g. as created by OpenSSH 7.6 and later
+- SFTP: Fix preserve timestamps menu option
+
+3.32.0 (2018-04-03)
+
++ Further SFTP performance improvements
+
+3.32.0-rc1 (2018-03-23)
+
++ The Site Manager no longer shows controls not applicable to the selected protocol
++ Dynamically disable menu items if the used protocal does not support the corresponding functionality
++ Speed up listing large directories over SFTP
+- Fix state of case sensitivity checkbox in the filter edit dialog if no filter has been selected
+
+3.31.0 (2018-02-23)
+
++ Allow trusting all subject alternative names (SAN) in a certificate if the current hostname matches the certificate
+- OS X: Fix file lists becoming inresponsive when a file rename edit box is discarded by clicking to the right of the last column in the file list
+- Fix rare crash during directory removal
+- Fix rare crash in the transfer queue
+
+3.31.0-rc1 (2018-02-17)
+
++ Allow trusting all subject alternative names (SAN) in a certificate if the current hostname matches the certificate
+- OS X: Fix file lists becoming inresponsive when a file rename edit box is discarded by clicking to the right of the last column in the file list
+- Fix rare crash during directory removal
+- Fix rare crash in the transfer queue
+
+3.30.0 (2018-01-08)
+
+- Add additional logging if autoupdate mechanism fails
+
+3.30.0-rc1 (2017-12-29)
+
++ In the search dialog local files can now be deleted or opened
++ The root node in the remote directory tree is now expanded by default
+- Fix uploading from search dialog
+- Fix formatting of filename in rename dialog
+- MSW: Fix installer crash if an update installation is started with the updated version having been installed
+</Setting>
+		<Setting name="Update Check Check Beta">1</Setting>
+		<Setting name="Update Check Download Dir">/Users/jbryan/Downloads/</Setting>
+		<Setting name="Show debug menu">1</Setting>
+		<Setting name="File exists action download">0</Setting>
+		<Setting name="File exists action upload">0</Setting>
+		<Setting name="Allow ascii resume">0</Setting>
+		<Setting name="Greeting version">3.29.0</Setting>
+		<Setting name="Onetime Dialogs">001001</Setting>
+		<Setting name="Show Tree Local">1</Setting>
+		<Setting name="Show Tree Remote">0</Setting>
+		<Setting name="File Pane Layout">0</Setting>
+		<Setting name="File Pane Swap">0</Setting>
+		<Setting name="Last local directory">/Users/jbryan/Downloads/</Setting>
+		<Setting name="Filelist directory sort">0</Setting>
+		<Setting name="Queue successful autoclear">0</Setting>
+		<Setting name="Queue column widths">538 60 360 80 60 150</Setting>
+		<Setting name="Local filelist colwidths">444 80 100 120</Setting>
+		<Setting name="Remote filelist colwidths">517 75 80 100 80 80</Setting>
+		<Setting name="Window position and size">0 2589 219 1390 552 </Setting>
+		<Setting name="Splitter positions (v2)">91 -121 382246376 189 100 500000000</Setting>
+		<Setting name="Local filelist sortorder">1 3</Setting>
+		<Setting name="Remote filelist sortorder">0 0</Setting>
+		<Setting name="Time Format">0</Setting>
+		<Setting name="Date Format">0</Setting>
+		<Setting name="Show message log">1</Setting>
+		<Setting name="Show queue">1</Setting>
+		<Setting name="Default editor">0</Setting>
+		<Setting name="Always use default editor">0</Setting>
+		<Setting name="Inherit system associations">1</Setting>
+		<Setting name="Custom file associations">template /Applications/Evernote.app
+cfg /Applications/BBEdit.app</Setting>
+		<Setting name="Comparison mode">1</Setting>
+		<Setting name="Comparison threshold">1</Setting>
+		<Setting name="Site Manager position">0 2866 187 835 692 </Setting>
+		<Setting name="Theme icon size">16x16</Setting>
+		<Setting name="Timestamp in message log">1</Setting>
+		<Setting name="Sitemanager last selected">0/GETO Website</Setting>
+		<Setting name="Local filelist shown columns">1111</Setting>
+		<Setting name="Remote filelist shown columns">111111</Setting>
+		<Setting name="Local filelist column order">0,1,2,3</Setting>
+		<Setting name="Remote filelist column order">0,1,2,3,4,5</Setting>
+		<Setting name="Filelist status bar">1</Setting>
+		<Setting name="Filter toggle state">0</Setting>
+		<Setting name="Show quickconnect bar">1</Setting>
+		<Setting name="Messagelog position">0</Setting>
+		<Setting name="Last connected site">0/GETO Website</Setting>
+		<Setting name="File doubleclock action">0</Setting>
+		<Setting name="Dir doubleclock action">0</Setting>
+		<Setting name="Minimize to tray">0</Setting>
+		<Setting name="Search column widths" />
+		<Setting name="Search column shown" />
+		<Setting name="Search column order" />
+		<Setting name="Search window size">0 1339 473 750 500 </Setting>
+		<Setting name="Comparison hide identical">0</Setting>
+		<Setting name="Search sort order" />
+		<Setting name="Edit track local">1</Setting>
+		<Setting name="Prevent idle sleep">1</Setting>
+		<Setting name="Filteredit window size" />
+		<Setting name="Enable invalid char filter">1</Setting>
+		<Setting name="Invalid char replace">_</Setting>
+		<Setting name="Already connected choice">3</Setting>
+		<Setting name="Edit status dialog size" />
+		<Setting name="Display current speed">0</Setting>
+		<Setting name="Toolbar hidden">0</Setting>
+		<Setting name="Strip VMS revisions">0</Setting>
+		<Setting name="Show Site Manager on startup">1</Setting>
+		<Setting name="Config Location">/Users/jbryan/.filezilla</Setting>
+		<Setting name="Kiosk mode">0</Setting>
+		<Setting name="Disable update check">0</Setting>
+		<LastServer>
+			<Host>ftp.geto.net</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>geto</User>
+			<Pass encoding="base64">aTgybXVjaA==</Pass>
+			<Logontype>1</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>GETO Website</Name>
+		</LastServer>
+		<Setting name="Last automatic update version">3.29.0</Setting>
+	</Settings>
+</FileZilla3>
