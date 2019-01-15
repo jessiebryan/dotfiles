@@ -1,0 +1,242 @@
+# Recent settings file for Wireshark 2.6.5.
+#
+# This file is regenerated each time Wireshark is quit.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181207-A280BB6D70FA4D26B48768A3C30550EF-tethereal.trace.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181207-0454F76F74CEAE5407A58D82893AEBE9-tethereal.trace.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181211-2C6961F9672D54367973E9B057010685-tethereal.trace.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181211-7682DEBFEB0A1EF7E895BF021D9BC390-tethereal.trace.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181211-9189883B6C0736328C89EB9D104EA5D0-tethereal (2).trace.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/jessie-207.154.78.216-20181211-2C6961F9672D54367973E9B057010685-tethereal.pcap
+recent.capture_file: /Volumes/SSD860-SLOT-B/Users/jbryan/Downloads/BW200112690121218-497485204@207.154.68.138.pcap
+recent.capture_file: /Users/jbryan/Downloads/jessie-207.154.78.216-20190109-487C6DAD8BBF4462E4245C73FDCA57BE-tethereal.trace
+recent.capture_file: /Users/jbryan/Downloads/jessie-207.154.78.193-20190109-487C6DAD8BBF4462E4245C73FDCA57BE-tethereal.trace
+recent.capture_file: /Users/jbryan/Downloads/jessie-207.154.78.216-20190110-98A5EE923BA7D7823178DDA67D679E81-tethereal.trace
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+recent.capture_filter: ether host 00:04:F2:AC:CA:33
+recent.capture_filter: not broadcast and not multicast
+recent.capture_filter: src or dst port 5060
+recent.capture_filter: ether host 0004f2aef14a
+recent.capture_filter: src or dst port 53 or src or dst host 207.154.68.67 and (src or dst port 80 or src or dst port 443) or src or dst host 207.154.68.77 and (src or dst port 80 or src or dst port 443)
+recent.capture_filter: (src or dst port 53) or (src or dst host 207.154.68.67 and (src or dst port 80 or src or dst port 443) or src or dst host 207.154.68.77 and (src or dst port 80 or src or dst port 443))
+recent.capture_filter: (src or dst port 53) or (src or dst host 207.154.68.67 and (src or dst port 80 or src or dst port 443)) or (src or dst host 207.154.68.77 and (src or dst port 80 or src or dst port 443))
+recent.capture_filter: (src or dst port 53) or (src or dst host 207.154.68.67) or (src or dst host 207.154.68.77)
+recent.capture_filter: ( src or dst host 207.154.68.67) or (src or dst host 207.154.68.77) or port 53
+recent.capture_filter: ether host 0004f2ac89b1
+recent.capture_filter: ether host  C0:EA:E4:6E:D1:99
+recent.capture_filter: ether host 0004F2806236
+recent.capture_filter: src or dst host 192.168.188.248
+recent.capture_filter: ether host 0:e0:db:e:1a:87
+recent.capture_filter: host 192.168.188.165
+recent.capture_filter: ether host 0004f2883d10
+recent.capture_filter: ether host 0004f287ebd3
+recent.capture_filter: ether host 0004f2885664
+recent.capture_filter: ether host 0004f2694dd3
+recent.capture_filter: ether host 0004f2a9e449
+recent.capture_filter: ether host 0004f28aa1f4
+recent.capture_filter.fw0: ether host 0004f2ac89b1
+recent.capture_filter.fw0: ether host 0004f2694dd3
+recent.capture_filter.bridge0: ether host 0004f2ac89b1
+recent.capture_filter.vlan0: ether host 0004f2ac89b1
+recent.capture_filter.vlan0: src or dst host 207.154.64.50
+recent.capture_filter.vlan1: ether host 0004f2ac89b1
+recent.capture_filter.vlan1: src host 207.154.88.20
+recent.capture_filter.vlan2: ether host 0004f2ac89b1
+recent.capture_filter.p2p0: ether host 0004f2ac89b1
+recent.capture_filter.en0: ether host 0004f2ac89b1
+recent.capture_filter.en0: ether host  C0:EA:E4:6E:D1:99
+recent.capture_filter.en0: ether host 0004F2806236
+recent.capture_filter.en0: src or dst host 192.168.188.248
+recent.capture_filter.en0: ether host 0:e0:db:e:1a:87
+recent.capture_filter.en0: host 192.168.188.165
+recent.capture_filter.en0: ether host 0004f2883d10
+recent.capture_filter.en0: ether host 0004f287ebd3
+recent.capture_filter.en0: ether host 0004f2885664
+recent.capture_filter.en0: ether host 0004f2694dd3
+recent.capture_filter.en0: ether host 00:c0:b7:a4:32:aa
+recent.capture_filter.en0: ether host 0004f28aa1f4
+recent.capture_filter.en0: port 5060
+recent.capture_filter.utun0: ether host 0004f2ac89b1
+recent.capture_filter.en1: ether host 0004f2ac89b1
+recent.capture_filter.vlan7: ( src or dst host 207.154.68.67) or (src or dst host 207.154.68.77) or port 53
+recent.capture_filter.vlan7: ether host 0004f2ac89b1
+recent.capture_filter.en3: ether host 0004f2ac89b1
+recent.capture_filter.en3: src or dst host canary.impulse.net and src or dst port 8888
+recent.capture_filter.en2: ether host 0004f2ac89b1
+recent.capture_filter.vlan4: ether host 0004f2ac89b1
+recent.capture_filter.vlan5: ether host 0004f2ac89b1
+recent.capture_filter.vlan6: ether host 0004f2ac89b1
+recent.capture_filter.vlan3: ether host 0004f2ac89b1
+recent.capture_filter.vlan8: ether host 0004f2ac89b1
+recent.capture_filter.vlan9: ether host 0004f2ac89b1
+recent.capture_filter.vlan10: ether host 0004f2ac89b1
+recent.capture_filter.lo0: ether host 0004f2ac89b1
+recent.capture_filter.en5: ether host 00:c0:b7:a4:32:aa
+recent.capture_filter.en5: not port 80 and not port 25 and host www.wireshark.org
+recent.capture_filter.en5: src or dst net 207.154.68.0/24
+recent.capture_filter.en5: dst port 53 or src or dst port 5076
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: sip
+recent.display_filter: frame.number in {91 111 147 206 208 210 211 212 213 214 215 217 218 220 224 225 226 227 236 239 240 244 245 246 250 254 1143 1147 1148 1150 267 265 264 252} or rtp.setup-frame in {91 111 147 206 208 210 211 212 213 214 215 217 218 220 224 225 226 227 236 239 240 244 245 246 250 254 1143 1147 1148 1150 267 265 264 252}
+recent.display_filter: ip.src == 207.154.78.216
+recent.display_filter: ip.src == 68.68.115.11
+recent.display_filter: frame.number == 3 or frame.number == 4 or frame.number == 5 or frame.number == 6 or frame.number == 7 or frame.number == 8 or frame.number == 9 or frame.number == 10 or frame.number == 11 or frame.number == 12 or frame.number == 13 or frame.number == 14 or frame.number == 15 or frame.number == 16 or frame.number == 17 or frame.number == 18 or frame.number == 19
+recent.display_filter: udp.stream eq 0
+recent.display_filter: udp.stream eq 4
+recent.display_filter: udp.stream eq 14
+recent.display_filter: ip.src == 207.154.68.228 or ip.dst == 207.154.68.228
+recent.display_filter: ip.src == 207.154.68.228 or ip.dst == 207.154.68.227
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 50
+gui.geometry_main_y: 50
+gui.gtk.geometry_main_x: 20
+gui.gtk.geometry_main_y: 20
+gui.geometry_main_width: 1716
+gui.geometry_main_height: 1211
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: FALSE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 633
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if npf.sys isn't loaded on Windows >= 6.0.
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_no_npf: TRUE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 288
+gui.geom.FollowStreamDialog.y: 67
+gui.geom.FollowStreamDialog.width: 2272
+gui.geom.FollowStreamDialog.height: 1291
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 800
+gui.geom.PreferencesDialog.y: 812
+gui.geom.PreferencesDialog.width: 1190
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of RtpStreamDialog window.
+# Decimal integers.
+gui.geom.RtpStreamDialog.x: 337
+gui.geom.RtpStreamDialog.y: 848
+gui.geom.RtpStreamDialog.width: 1621
+gui.geom.RtpStreamDialog.height: 441
+# TRUE or FALSE (case-insensitive).
+gui.geom.RtpStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of RtpPlayerDialog window.
+# Decimal integers.
+gui.geom.RtpPlayerDialog.x: 251
+gui.geom.RtpPlayerDialog.y: 156
+gui.geom.RtpPlayerDialog.width: 1611
+gui.geom.RtpPlayerDialog.height: 846
+# TRUE or FALSE (case-insensitive).
+gui.geom.RtpPlayerDialog.maximized: FALSE
+
+# Geometry and maximized state of VoipCallsDialog window.
+# Decimal integers.
+gui.geom.VoipCallsDialog.x: 844
+gui.geom.VoipCallsDialog.y: 570
+gui.geom.VoipCallsDialog.width: 1716
+gui.geom.VoipCallsDialog.height: 768
+# TRUE or FALSE (case-insensitive).
+gui.geom.VoipCallsDialog.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 765
+gui.geom.DecodeAsDialog.y: 820
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
+# Geometry and maximized state of RtpAnalysisDialog window.
+# Decimal integers.
+gui.geom.RtpAnalysisDialog.x: 251
+gui.geom.RtpAnalysisDialog.y: 156
+gui.geom.RtpAnalysisDialog.width: 1611
+gui.geom.RtpAnalysisDialog.height: 846
+# TRUE or FALSE (case-insensitive).
+gui.geom.RtpAnalysisDialog.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 396
+gui.geom.PacketDialog.y: 322
+gui.geom.PacketDialog.width: 1621
+gui.geom.PacketDialog.height: 874
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
+
+# Geometry and maximized state of SequenceDialog window.
+# Decimal integers.
+gui.geom.SequenceDialog.x: 2648
+gui.geom.SequenceDialog.y: 88
+gui.geom.SequenceDialog.width: 2027
+gui.geom.SequenceDialog.height: 874
+# TRUE or FALSE (case-insensitive).
+gui.geom.SequenceDialog.maximized: FALSE
+
+# Geometry and maximized state of CaptureFilePropertiesDialog window.
+# Decimal integers.
+gui.geom.CaptureFilePropertiesDialog.x: 0
+gui.geom.CaptureFilePropertiesDialog.y: 23
+gui.geom.CaptureFilePropertiesDialog.width: 1514
+gui.geom.CaptureFilePropertiesDialog.height: 1291
+# TRUE or FALSE (case-insensitive).
+gui.geom.CaptureFilePropertiesDialog.maximized: FALSE
+
+# Geometry and maximized state of SSL Decrypt window.
+# Decimal integers.
+gui.geom.SSL Decrypt.x: 883
+gui.geom.SSL Decrypt.y: 848
+gui.geom.SSL Decrypt.width: 1312
+gui.geom.SSL Decrypt.height: 403
+# TRUE or FALSE (case-insensitive).
+gui.geom.SSL Decrypt.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"

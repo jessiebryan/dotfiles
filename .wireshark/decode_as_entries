@@ -1,0 +1,9 @@
+# "Decode As" entries file for Wireshark 2.4.5.
+#
+# This file is regenerated each time "Decode As" preferences
+# are saved within Wireshark. Making manual changes should be safe,
+# however.
+decode_as_entry: udp.port,13412,(none),RTP
+decode_as_entry: udp.port,1359,(none),RTP
+decode_as_entry: tcp.port,39040,(none),FTP
+decode_as_entry: tcp.port,57020,(none),FTP-DATA
