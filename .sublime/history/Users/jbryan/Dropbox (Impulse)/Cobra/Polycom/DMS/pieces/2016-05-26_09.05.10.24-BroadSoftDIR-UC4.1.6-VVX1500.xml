@@ -1,0 +1,33 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:45:00
+  @File Name: 24-BroadSoftDIR-UC4.1.6-VVX1500.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:05:10
+  @Created time: 2015-12-15 16:45:00
+-->
+
+
+<!-- 24  BroadSoft Directory Settings for UC4.1.6 -->
+<!-- DMS Tags: FEATURE_BSOFTDIR, (Values: 0 or 1) Default is:  -->
+<!-- DMS Tags: VVXXSP_ADDRESS, (Values: url ) Default is: https://vvx.impulsevoip.net -->
+<!-- DMS Tags: PORTAL_USERNAME, (Values: string (must include @impulsevoip.net) ) Default is:  -->
+<!-- DMS Tags: PORTAL_PASSWORD, (Values: string ) Default is:  -->
+
+	<feature>
+		<feature.broadsoftdir feature.broadsoftdir.enabled="%FEATURE_BSOFTDIR%"/>
+		<feature.qml feature.qml.enabled="%FEATURE_BSOFTDIR%"/>
+	</feature>
+
+	<dir>
+		<dir.broadsoft>
+		<dir.broadsoft.qml dir.broadsoft.qml.home="file:////usr/local/apps/BSD/BSD.qml">
+		</dir.broadsoft.qml>
+		<dir.broadsoft.xsp dir.broadsoft.xsp.address="%VVXXSP_ADDRESS%" dir.broadsoft.xsp.password="%PORTAL_PASSWORD%" dir.broadsoft.xsp.username="%PORTAL_USERNAME%">
+		</dir.broadsoft.xsp>
+		</dir.broadsoft>
+	</dir>
+
+<!-- 24  BroadSoft Directory Settings for UC4.1.6 -->

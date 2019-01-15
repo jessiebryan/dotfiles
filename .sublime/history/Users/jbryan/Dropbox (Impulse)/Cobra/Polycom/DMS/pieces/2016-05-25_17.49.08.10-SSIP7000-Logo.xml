@@ -1,0 +1,18 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:43
+  @File Name: 10-SSIP7000-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:08
+  @Created time: 2015-12-15 16:37:43
+-->
+
+
+<!-- 10 Logo -->
+        <bitmap>
+                <bitmap.idleDisplay bitmap.idleDisplay.name="%LOGOURL_7000%" />
+        </bitmap>
+<!-- 10 Logo -->
+

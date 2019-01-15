@@ -1,0 +1,20 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-25 17:25:56
+  @File Name: 02-BLF-2.1.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:31:30
+  @Created time: 2016-05-25 17:25:56
+-->
+
+
+<!-- 02 Busy Lamp Field - BLF -->
+        <!-- dummy tag = %BWBLF-ENABLED-1% -->
+        <!-- dummy tag = %BWBLF-ENABLED-2% -->
+        <!-- dummy tag = %BWBLF-ENABLED-3% -->
+        <!-- dummy tag = %BWBLF-ENABLED-4% -->
+	<attendant attendant.uri="%BWBLF-URI-1%" attendant.reg="1" />
+<!-- 02 Busy Lamp Field - BLF -->
+

@@ -1,0 +1,34 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 16:10:06
+  @File Name: 27-acousticFencing-UC5.4.3-VVX501.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:56
+  @Created time: 2016-05-03 16:10:06
+-->
+
+
+<!-- 27 VVX Acoustic Fencing -->
+
+<!-- FEATURE_NOISEBLOCK - valid values: 0 or 1 default: 0 -->
+<!-- FEATURE_AF_HEADSET - valid values: 0 or 1 default: 1 -->
+<!-- FEATURE_AF_HEADSET_LEVEL - valid values: 1-10 default: 8 -->
+<!-- FEATURE_AF_HANDSET - valid values: 0 or 1 default: 1 -->
+<!-- FEATURE_AF_HANDSET_LEVEL - valid values: 1-10 default: 8 -->
+
+<!-- Accoustic Fence - NoiseBlock -->
+<voice.ns voice.ns.hs.blocker="%FEATURE_NOISEBLOCK%"/>
+
+<!-- Acoustic Fence - Polycom NoiseBlock hd - headsets -->
+<voice.ns voice.ns.hd.enable="%FEATURE_AF_HEADSET%"/>
+<voice.ns voice.ns.hd.enhanced="%FEATURE_AF_HEADSET%"/>
+<voice.ns voice.ns.hd.nonStationaryThresh="%FEATURE_AF_HEADSET_LEVEL%"/>
+
+<!-- Acoustic Fence - Polycom NoiseBlock hs - handsets -->
+<voice.ns voice.ns.hs.enable="%FEATURE_AF_HANDSET%"/>
+<voice.ns voice.ns.hs.enhanced="%FEATURE_AF_HANDSET%"/>
+<voice.ns voice.ns.hs.nonStationaryThresh="%FEATURE_AF_HANDSET_LEVEL%"/>
+
+<!-- 27 VVX Acoustic Fencing -->

@@ -1,0 +1,19 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-15 10:04:44
+  @File Name: 21-SupplmentalSignaling-UC4.0.10.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:19
+  @Created time: 2016-04-15 10:04:44
+-->
+
+
+<!-- 21 Supplmental Signaling -->
+	<voIpProt.SIP voIpProt.SIP.authOptimizedInFailover="1"/>
+
+	<voIpProt.SIP.keepalive voIpProt.SIP.keepalive.sessionTimers="0"/>
+
+<!-- 21 Supplmental Signaling -->
+

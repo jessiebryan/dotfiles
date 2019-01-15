@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- $RCSfile: phoneBWDEVICEID.cfg,v $  $Revision: 1.93 $ -->
+<phone1>
+   <device device.set="1">
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt="2" />
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt.set="1" />
+      <device.prov device.prov.serverType="2" />
+      <device.prov device.prov.serverType.set="1" />
+      <device.prov device.prov.serverName="impvoip.net/dms/vvx601" />
+      <device.prov device.prov.serverName.set="1" />
+   </device>
+</phone1>

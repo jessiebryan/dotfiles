@@ -1,0 +1,40 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 16:10:57
+  @File Name: 90-Keys-VVX501-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:01
+  @Created time: 2016-05-03 16:10:57
+-->
+
+
+<!-- 90 VVX501 Soft Keys -->
+        <!-- JB20150528 - RT374171 -->
+        <softkey softkey.2.enable="%FEATURE_TOVMAIL%" softkey.2.label="ToVMail" softkey.2.action="^*55$P1N4$$Tinvite$" softkey.2.use.active="1"/>
+        <softkey softkey.2.insert="4"/>
+        <efk efk.efkprompt.1.status="1" efk.efkprompt.1.label="Exten" efk.efkprompt.1.type="numeric" efk.efkprompt.1.userfeedback="visible"/>
+        <!-- JB20150528 - RT374171 -->
+
+
+        <!-- JB20150528 - Notes for RT374171 -->
+        <!-- FEATURE_TOVMAIL Tag enables softkey.2.x -->
+        <!-- FEATURE_DIRSOFTKEY Tag must be set to 0 -->
+        <!-- Default Soft-Key Positions: -->
+        <!-- HOLD | End Call | Transfer | Confrnc | ToVMail -->
+        <!-- Requested Soft-Key Positions: -->
+        <!-- HOLD | End Call | Transfer | ToVMail | Confrnc -->
+        <!-- EFK Notes: -->
+        <!-- efkprompt.1 should only be used for softkey.2 user input -->
+        <!-- efkprompt.1 limits 4 digits for digit input length -->
+        <!-- JB20150528 - Notes for RT374171 -->
+
+	<!-- JB20160422 Soft Key Changes -->
+	<homeScreen.forward homeScreen.forward.enable="0"/>
+	<homeScreen.application homeScreen.application.enable="0"/>
+	<homeScreen.calendar homeScreen.calendar.enable="0"/>
+	<softkey.feature softkey.feature.forward="1"/>
+	<!-- JB20160422 Soft Key Changes -->
+
+<!-- 90 VVX501 Soft Keys -->

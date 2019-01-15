@@ -1,0 +1,40 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-09 09:01:05
+  @File Name: 12-FeaturesGeneric-UC5.4.1AA.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:51
+  @Created time: 2016-02-09 09:01:05
+-->
+
+
+<!-- 12 Features - Generic -->
+<!-- FEATURE_CALLRECORDING_BWORKS valid values: 0 or 1. default 0 -->
+<!-- FEATURE_CALLRECORDING valid values: 0 or 1. default 1 -->
+<!-- WARNING: Enable only one recording mechanism on the phone, not both -->
+
+	<feature>
+		<feature.urlDialing feature.urlDialing.enabled="0"/>
+		<feature.enhancedFeatureKeys feature.enhancedFeatureKeys.enabled="%FEATURE_ENHANCEDKEYS%"/>
+		<feature.callRecording feature.callRecording.enabled="%FEATURE_CALLRECORDING%"/>
+		<feature.enhancedCallDisplay feature.enhancedCallDisplay.enabled="1"/>
+		<feature.groupCallPickup feature.groupCallPickup.enabled="%FEATURE_GROUPCALLPICKUP%"/>
+		<feature.lastCallReturn feature.lastCallReturn.enabled="%FEATURE_CALLRETURN%"/>
+		<feature.presence feature.presence.enabled="%FEATURE_PRESENCE%"/>
+		<feature.exchangeCalendar feature.exchangeCalendar.enabled="%FEATURE_EXCHANGECAL%"/>
+		<feature.directedCallPickup feature.directedCallPickup.enabled="%FEATURE_DIRECTEDCALLPICKUP%"/>
+	</feature>
+
+	<sec sec.tagSerialNo="1"/>
+
+        <!-- DMS Tags: FEATURE_DIRECTEDCALLPICKUPFAC, (Values: *97 or *65) -->
+        <call call.directedCallPickupString="%FEATURE_DIRECTEDCALLPICKUPFAC%"/>
+
+	<!-- Centralized Call Recording via SIP-REC -->
+	<reg.1.serverFeatureControl reg.1.serverFeatureControl.callRecording="%FEATURE_CALLRECORDING_BWORKS%"/>
+	<!-- Centralized Call Recording via SIP-REC -->
+
+<!-- 12 Features - Generic -->
+

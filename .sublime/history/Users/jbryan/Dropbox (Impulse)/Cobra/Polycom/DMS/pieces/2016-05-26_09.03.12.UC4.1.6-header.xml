@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-24 17:05:49
+  @File Name: UC4.1.6-header.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:03:12
+  @Created time: 2016-05-24 17:05:49
+-->
+
+
+
+	<!-- FILE GENERATED ON %BWTIMESTAMP% -->
+
+	<!-- Impulse Edits | 2014.03.03JB -->
+	<!-- This Release is just for VVX300/VVX310/VVX400/VVX410/VVX500/VVX600 Phones -->
+	<!-- Introduces BroadSoft Directory -->
+	<!-- Many corrections for BLF/MWI issues -->
+
+        <!-- Impulse Techsupport data -->
+        <!--
+        <cobra.impulse>
+         <impulse.broadworks impulse.broadworks.enterprise.name="%BWENTERPRISE-1%"/>
+         <impulse.broadworks impulse.broadworks.enterprise.id="%BWENTERPRISEID-1%"/>
+         <impulse.broadworks impulse.broadworks.group.id="%BWGROUPID-1%"/>
+         <impulse.broadworks impulse.broadworks.group.name="%BWGROUP-1%"/>
+         <impulse.broadworks impulse.broadworks.device.address="%BWMACADDRESS%"/>
+        </cobra.impulse>
+        -->
+        <!-- Impulse Techsupport data -->
+
+	<!-- Generated reg-basic.cfg Configuration File -->
+	<polycomConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="polycomConfig.xsd">
+

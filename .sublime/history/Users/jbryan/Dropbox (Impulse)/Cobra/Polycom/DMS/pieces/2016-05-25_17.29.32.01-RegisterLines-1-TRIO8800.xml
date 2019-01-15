@@ -1,0 +1,42 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-25 17:26:07
+  @File Name: 01-RegisterLines-1-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:29:32
+  @Created time: 2016-05-25 17:26:07
+-->
+
+
+<!-- DMS Tags: FEATURE_REG1LINEKEYS, (Values: varies based on model default is 1) RT336423 -->
+<!-- DMS Tags: FEATURE_REG2LINEKEYS, (Values: varies based on model default is 1) RT336423 -->
+
+<!-- Polycom Real Presence Trio 8800 Registration Lines Only -->
+
+<!-- 01 Call Registrations -->
+	<call call.callsPerLineKey="%CALLSPERLINEKEY%" call.hold.localReminder.enabled="1" />
+
+	<reg
+		reg.1.displayName="%BWCLID-1%"
+		reg.1.address="%BWLINEPORT-1%"
+		reg.1.server.1.address="%BWHOST-1%"
+		reg.1.server.1.transport="%TRANSPORT%"
+		reg.1.auth.password="%BWAUTHPASSWORD-1%"
+		reg.1.auth.userId="%BWAUTHUSER-1%"
+		reg.1.label="%BWEXTENSION-1%"
+		reg.1.type="%BWSHAREDLINE-1%"
+		reg.1.acd-agent-available="%FEATURE_ACD%"
+		reg.1.acd-login-logout="%FEATURE_ACD%"
+		reg.1.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.1.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.1.bargeInEnabled="%BWSCA-BRIDGING-BINARY-1%"
+		reg.1.lineKeys="%FEATURE_REG1LINEKEYS%"
+		reg.1.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.1.outboundProxy.port="0"
+		reg.1.outboundProxy.transport="%TRANSPORT%"
+		
+	/>
+<!-- 01 Call Registrations -->
+

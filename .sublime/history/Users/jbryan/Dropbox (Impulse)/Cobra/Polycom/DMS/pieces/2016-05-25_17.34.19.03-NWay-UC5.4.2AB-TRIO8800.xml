@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-20 10:23:57
+  @File Name: 03-NWay-UC5.4.2AB-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:34:19
+  @Created time: 2016-04-20 10:23:57
+-->
+
+
+<!-- 03 N-Way Conferencing -->
+	<!-- Polycom RealPresence Trio needs to use internal N-WAY - do not use BroadWorks N-Way -->
+	<voIpProt.SIP.conference voIpProt.SIP.conference.address=""/>
+
+	<feature>
+		<feature.nWayConference feature.nWayConference.enabled="1"/>
+	</feature>
+<!-- 03 N-Way Conferencing -->
+

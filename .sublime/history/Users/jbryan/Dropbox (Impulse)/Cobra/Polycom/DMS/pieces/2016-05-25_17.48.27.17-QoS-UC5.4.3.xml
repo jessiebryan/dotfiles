@@ -1,0 +1,28 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 09:00:57
+  @File Name: 17-QoS-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:27
+  @Created time: 2016-04-22 09:00:57
+-->
+
+
+<!-- 17 QoS Values - Only honored with Impulse Next-Gen Networks -->
+	<QOS>
+		<Ethernet>
+			<RTP qos.ethernet.rtp.user_priority="5" />
+			<VideoRTP qos.ethernet.rtp.video.user_priority="5" />
+			<CallControl qos.ethernet.callControl.user_priority="5" />
+			<Other qos.ethernet.other.user_priority="1" />
+		</Ethernet>
+		<IP>
+			<RTP qos.ip.rtp.dscp="EF" />
+			<VideoRTP qos.ip.rtp.video.dscp="EF" />
+			<CallControl qos.ip.callControl.dscp="AF21" />
+		</IP>
+	</QOS>
+<!-- 17 QoS Values - Only honored with Impulse Next-Gen Networks -->
+

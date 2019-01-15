@@ -1,0 +1,16 @@
+[
+    {
+        "keys": ["super+alt+t"],
+        "command": "file_header_new_file",
+        "args":{
+            "paths": []
+        }
+    },
+    {
+        "keys": ["super+alt+y"],
+        "command": "file_header_add_header",
+        "args":{
+            "paths": []
+        }
+    }
+]

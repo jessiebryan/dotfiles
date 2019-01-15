@@ -1,0 +1,119 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:38:10
+  @File Name: 97-Logging-UC4.1.6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:03:58
+  @Created time: 2015-12-15 16:38:10
+-->
+
+
+<!-- 97 Logging -->
+
+	<logging>
+		<level>
+			<change
+					log.level.change.acom="4" 
+					log.level.change.ares="4" 
+					log.level.change.app1="4" 
+					log.level.change.bluet="4" 
+					log.level.change.bdiag="4" 
+					log.level.change.brow="4" 
+					log.level.change.cap="4" 
+					log.level.change.cdp="4" 
+					log.level.change.cert="4" 
+					log.level.change.cfg="4" 
+					log.level.change.clink="4" 
+					log.level.change.clist="4" 
+					log.level.change.cmp="4" 
+					log.level.change.cmr="4" 
+					log.level.change.copy="4" 
+					log.level.change.curl="4" 
+					log.level.change.daa="4" 
+					log.level.change.dbs="4" 
+					log.level.change.dbuf="4" 
+					log.level.change.dhcpc="4" 
+					log.level.change.dis="4" 
+					log.level.change.dock="4" 
+					log.level.change.dot1x="4" 
+					log.level.change.dns="4" 
+					log.level.change.ec="4" 
+					log.level.change.efk="4" 
+					log.level.change.ethf="4" 
+					log.level.change.h323="4" 
+					log.level.change.hset="4" 
+					log.level.change.httpa="4" 
+					log.level.change.httpd="4" 
+					log.level.change.hw="4" 
+					log.level.change.ht="4" 
+					log.level.change.ib="4" 
+					log.level.change.key="4" 
+					log.level.change.ldap="4" 
+					log.level.change.lic="4" 
+					log.level.change.lldp="4" 
+					log.level.change.loc="4" 
+					log.level.change.log="4" 
+					log.level.change.mb="4" 
+					log.level.change.mobil="4" 
+					log.level.change.net="4" 
+					log.level.change.niche="4" 
+					log.level.change.oaip="4" 
+					log.level.change.ocsp="4" 
+					log.level.change.osd="4" 
+					log.level.change.pcap="4" 
+					log.level.change.pcd="4" 
+					log.level.change.peer="4" 
+					log.level.change.pgui="4" 
+					log.level.change.pmt="4" 
+					log.level.change.pnetm="4" 
+					log.level.change.poll="4" 
+					log.level.change.pps="4" 
+					log.level.change.pres="4" 
+					log.level.change.pstn="4" 
+					log.level.change.ptt="4" 
+					log.level.change.push="4" 
+					log.level.change.pwrsv="4" 
+					log.level.change.rdisk="4" 
+					log.level.change.res="4" 
+					log.level.change.rtos="4" 
+					log.level.change.rtls="4" 
+					log.level.change.sec="4" 
+					log.level.change.sig="4" 
+					log.level.change.sip="4" 
+					log.level.change.slog="4" 
+					log.level.change.so="4" 
+					log.level.change.soem="4" 
+					log.level.change.srtp="4" 
+					log.level.change.sshc="4" 
+					log.level.change.ssps="4" 
+					log.level.change.style="4" 
+					log.level.change.sys="4" 
+					log.level.change.ta="4" 
+					log.level.change.task="4" 
+					log.level.change.tls="4" 
+					log.level.change.trace="4" 
+					log.level.change.ttrs="4" 
+					log.level.change.usb="4" 
+					log.level.change.usbio="4" 
+					log.level.change.utilm="4" 
+					log.level.change.wdog="4" 
+					log.level.change.wifi="4" 
+					log.level.change.wlan="4" 
+					log.level.change.wmgr="4" 
+					log.level.change.xmpp="4" />
+		</level>
+			<render log.render.level="1" 
+					log.render.type="2" 
+					log.render.realtime="1" 
+					log.render.stdout="1" 
+					log.render.file="1" 
+					log.render.file.size="16" 
+					log.render.file.upload.period="172800" 
+					log.render.file.upload.append="1" 
+					log.render.file.upload.append.sizeLimit="512" 
+					log.render.file.upload.append.limitMode="delete" />
+	</logging>
+
+<!-- 97 Logging -->

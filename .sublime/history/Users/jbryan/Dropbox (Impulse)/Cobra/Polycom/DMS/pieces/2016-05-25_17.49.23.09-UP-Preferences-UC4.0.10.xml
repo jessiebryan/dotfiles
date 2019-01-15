@@ -1,0 +1,30 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-15 10:03:08
+  @File Name: 09-UP-Preferences-UC4.0.10.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:23
+  @Created time: 2016-04-15 10:03:08
+-->
+
+
+<!-- 09 User Preferences -->
+	<up up.callTypePromptPref="1" up.enableCallTypePrompt="1" up.idleTimeout="40" up.lineKeyCallTerminate="0" 
+		up.lineKeyCallTerminate.SPIP231="1"
+		up.lineKeyCallTerminate.SPIP235T="1" up.numberFirstCID="0" up.oneTouchVoiceMail="%ONETOUCHVM%"/>
+
+	<voice.volume>
+		<voice.volume.persist voice.volume.persist.handset="1" voice.volume.persist.handsfree="1" voice.volume.persist.headset="1" voice.volume.persist.usbHeadset="1">
+		<voice.volume.persist.bluetooth voice.volume.persist.bluetooth.headset="1">
+		</voice.volume.persist.bluetooth>
+		<voice.volume.persist.usb voice.volume.persist.usb.handsfree="1">
+		</voice.volume.persist.usb>
+		</voice.volume.persist>
+	</voice.volume>
+
+
+
+<!-- 09 User Preferences -->
+

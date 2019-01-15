@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-27 13:11:58
+  @File Name: vvx501-phoneBWDEVICEID.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-27 13:22:00
+  @Created time: 2016-05-27 13:11:58
+-->
+
+
+<phone1>
+   <device device.set="1">
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt="2" />
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt.set="1" />
+      <device.prov device.prov.serverType="2" />
+      <device.prov device.prov.serverType.set="1" />
+      <device.prov device.prov.serverName="impvoip.net/dms/vvx501" />
+      <device.prov device.prov.serverName.set="1" />
+   </device>
+</phone1>

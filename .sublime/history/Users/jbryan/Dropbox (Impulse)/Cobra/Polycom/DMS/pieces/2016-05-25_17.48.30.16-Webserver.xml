@@ -1,0 +1,17 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-15 10:38:44
+  @File Name: 16-Webserver.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:30
+  @Created time: 2016-04-15 10:38:44
+-->
+
+
+<!-- 16 Disable Polycom User Webserver -->
+<!-- DMS Tags: FEATURE_HTTPMGMT, (Values: 0 or 1) Default is: 0(Prod) -->
+	<httpd httpd.cfg.enabled="%FEATURE_HTTPMGMT%"/>
+<!-- 16 Disable Polycom User Webserver -->
+

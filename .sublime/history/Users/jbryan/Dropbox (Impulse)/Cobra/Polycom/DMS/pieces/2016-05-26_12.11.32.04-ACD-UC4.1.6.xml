@@ -1,0 +1,31 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:13
+  @File Name: 04-ACD-UC4.1.6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 12:11:32
+  @Created time: 2015-12-15 16:37:13
+-->
+
+
+<!-- 04 ACD Stuff -->
+<!-- DMS Tags: FEATURE_PREMIUM_ACD is a boolean value of 0 or 1, default is 0 RT335308 -->
+
+	<voIpProt.SIP.acd voIpProt.SIP.acd.signalingMethod="%FEATURE_ACD%"/>
+
+	<feature>
+		<feature.acdAgentAvailability feature.acdAgentAvailability.enabled="%FEATURE_ACD%" />
+		<feature.acdLoginLogout feature.acdLoginLogout.enabled="%FEATURE_ACD%" />
+		<feature.acdServiceControlUri feature.acdServiceControlUri.enabled="%FEATURE_ACD%" />
+		<feature.acdPremiumUnavailability feature.acdPremiumUnavailability.enabled="%FEATURE_ACD%" />
+		<feature.callCenterStatus feature.callCenterStatus.enabled="%FEATURE_PREMIUM_ACD%" />
+	</feature>
+
+	<acd acd.reg="%FEATURE_ACD_LINE%" acd.stateAtSignIn="%FEATURE_ACD_SIGNIN_STATE%" acd.1.unavailreason.active="1" acd.1.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE1%" acd.1.unavailreason.codeName="%FEATURE_ACD_URSN_TXT1%" acd.2.unavailreason.active="1" acd.2.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE2%" acd.2.unavailreason.codeName="%FEATURE_ACD_URSN_TXT2%" acd.3.unavailreason.active="1" acd.3.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE3%" acd.3.unavailreason.codeName="%Out for coffee%" acd.4.unavailreason.active="1" acd.4.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE4%" acd.4.unavailreason.codeName="%FEATURE_ACD_URSN_TXT4%" acd.5.unavailreason.active="1" acd.5.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE5%" acd.5.unavailreason.codeName="%FEATURE_ACD_URSN_TXT5%" acd.6.unavailreason.active="1" acd.6.unavailreason.codeValue="%FEATURE_ACD_URSN_CODE6%" acd.6.unavailreason.codeName="%FEATURE_ACD_URSN_TXT6%" />
+
+	<!-- CALL INFORMATION / CALL MIME TYPE: FEATURE_ACD_CALL_INFORMATION -->
+	<push apps.push.messageType="3" apps.push.serverRootURL="" apps.push.username="" apps.push.password="" />
+<!-- 04 ACD Stuff -->
+

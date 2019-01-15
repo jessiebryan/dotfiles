@@ -1,0 +1,8 @@
+<!-- 03 N-Way Conferencing -->
+	<voIpProt.SIP.conference voIpProt.SIP.conference.address="%CONFERENCE%"/>
+
+	<feature>
+		<feature.nWayConference feature.nWayConference.enabled="%FEATURE_NWAYCONF%"/>
+	</feature>
+<!-- 03 N-Way Conferencing -->
+

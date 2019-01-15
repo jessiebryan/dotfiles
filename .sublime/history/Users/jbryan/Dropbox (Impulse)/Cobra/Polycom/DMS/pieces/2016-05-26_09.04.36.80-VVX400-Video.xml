@@ -1,0 +1,24 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:17
+  @File Name: 80-VVX400-Video.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:36
+  @Created time: 2015-12-15 16:37:17
+-->
+
+
+<!-- 80 Enable Polycom-Video Services -->
+
+	<video video.autoFullScreen="%VIDEO_AUTOFULLSCREEN_MODE%" video.maxCallRate="%VIDEO_MAXCALL_RATE%" video.callRate="%VIDEO_CALL_RATE%"
+		video.screenModeFS="%VIDEO_SCREEN_MODE%" video.screenMode="%VIDEO_SCREEN_MODE%" video.quality="%VIDEO_QUALITY%">
+		<video.camera video.camera.frameRate="%VIDEO_FRAME_RATE%" video.enable="%VIDEO_ENABLE%"/>
+		<video.localCameraView>
+			<video.localCameraView.fullScreen video.localCameraView.fullScreen.mode="%VIDEO_LOCAL_MODE%" />
+		</video.localCameraView>
+	</video>
+
+<!-- 80 Enable Polycom-Video Services -->
+

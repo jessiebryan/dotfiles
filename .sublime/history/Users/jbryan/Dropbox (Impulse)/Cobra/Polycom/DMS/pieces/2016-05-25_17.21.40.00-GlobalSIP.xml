@@ -1,0 +1,16 @@
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-25 17:21:28
+  @File Name: 00-GlobalSIP.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:21:40
+  @Created time: 2016-05-25 17:21:28
+-->
+<!-- 00 General SIP Settings -->
+
+	<voIpProt.SIP voIpProt.SIP.enable="1"/>
+	<voIpProt.server voIpProt.server.1.expires="3600" voIpProt.server.1.port="0" />
+	<tone.dtmf tone.dtmf.rfc2833Payload="101" />
+
+<!-- 00 General SIP Settings -->

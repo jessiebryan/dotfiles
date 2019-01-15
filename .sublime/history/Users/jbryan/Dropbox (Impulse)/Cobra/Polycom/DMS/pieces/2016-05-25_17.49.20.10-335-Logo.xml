@@ -1,0 +1,18 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:36:54
+  @File Name: 10-335-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:20
+  @Created time: 2015-12-15 16:36:54
+-->
+
+
+<!-- 10 Logo -->
+        <bitmap>
+                <bitmap.idleDisplay bitmap.idleDisplay.name="%LOGOURL_335%" />
+        </bitmap>
+<!-- 10 Logo -->
+

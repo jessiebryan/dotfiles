@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-20 09:35:39
+  @File Name: 21-SupplmentalSignaling-UC5.4.2AB.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:17
+  @Created time: 2016-04-20 09:35:39
+-->
+
+
+<!-- 21 Supplmental Signaling -->
+	<voIpProt.SIP voIpProt.SIP.authOptimizedInFailover="1"/>
+
+	<voIpProt.SIP.keepalive voIpProt.SIP.keepalive.sessionTimers="0"/>
+
+	<voIpProt.SIP.local voIpProt.SIP.local.port="5969"/>
+
+<!-- 21 Supplmental Signaling -->
+

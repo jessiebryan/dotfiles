@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-27 12:59:04
+  @File Name: 000000000000.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-27 12:59:16
+  @Created time: 2016-05-27 12:59:04
+-->
+
+
+
+<phone1>
+        <device
+                device.set="1"
+                device.prov.eula.accepted="1"
+                device.prov.eula.accepted.set="1"
+        />
+
+</phone1>

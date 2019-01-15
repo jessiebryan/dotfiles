@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+	<!-- Example Per-phone Configuration File -->
+	<!-- $RCSfile: phone1.cfg,v $  $Revision: 1.121.4.5 $ -->
+
+	<!-- FILE GENERATED ON %BWTIMESTAMP% -->
+
+	<!-- Impulse Edits | 2016.04.01JB -->
+	<!-- This Release is just for VVX Phones -->
+
+        <!-- Impulse Techsupport data -->
+	<!-- 
+	<cobra.impulse>	
+	 <impulse.broadworks impulse.broadworks.enterprise.name="%BWENTERPRISE-1%"/>
+	 <impulse.broadworks impulse.broadworks.enterprise.id="%BWENTERPRISEID-1%"/>
+	 <impulse.broadworks impulse.broadworks.group.id="%BWGROUPID-1%"/>
+	 <impulse.broadworks impulse.broadworks.group.name="%BWGROUP-1%"/>
+	 <impulse.broadworks impulse.broadworks.device.address="%BWMACADDRESS%"/>
+	</cobra.impulse>	
+	-->              
+        <!-- Impulse Techsupport data -->
+
+
+
+	<!-- Generated reg-basic.cfg Configuration File -->
+	<polycomConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="polycomConfig.xsd">
+

@@ -1,0 +1,23 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:13
+  @File Name: 02-BLF-UC4.0.4.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:31:26
+  @Created time: 2015-12-15 16:37:13
+-->
+
+
+<!-- 02 Busy Lamp Field - BLF -->
+	<!-- dummy tag = %BWBLF-ENABLED-1% -->
+	<!-- dummy tag = %BWBLF-ENABLED-2% -->
+	<!-- dummy tag = %BWBLF-ENABLED-3% -->
+	<!-- dummy tag = %BWBLF-ENABLED-4% -->
+	<attendant attendant.uri="%BWBLF-URI-1%" attendant.reg="1" attendant.ringType="ringer1"
+		attendant.behaviors.display.spontaneousCallAppearances.normal="%BLF_ALERT%"
+		attendant.behaviors.display.spontaneousCallAppearances.automata="1"
+		attendant.behaviors.display.remoteCallerID.normal="1"/>
+<!-- 02 Busy Lamp Field - BLF -->
+

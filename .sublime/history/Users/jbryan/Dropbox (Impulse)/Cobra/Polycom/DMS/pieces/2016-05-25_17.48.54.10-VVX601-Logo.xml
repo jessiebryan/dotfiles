@@ -1,0 +1,20 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 16:16:31
+  @File Name: 10-VVX601-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:54
+  @Created time: 2016-05-03 16:16:31
+-->
+
+
+<!-- 10 Logo -->
+	<bg>
+		<bg.color bg.color.selection="2,1">
+		<bg.color.bm bg.color.bm.1.name="%LOGOURL_VVX601%"/>
+		</bg.color>
+	</bg>
+<!-- 10 Logo -->
+

@@ -1,0 +1,149 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 09:00:57
+  @File Name: 15-Paging-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 14:06:51
+  @Created time: 2016-04-22 09:00:57
+-->
+
+
+<!-- 15 Polycom Push To Talk Paging - Multicast -->
+	<!-- DMS Tags for Polycom Paging -->
+	<!-- name: PAGING_allowOffHookPages values: 0 or 1, default is 0 -->
+	<!-- name: PAGING_codec values: G.711mu, G.726QI, G.722 default is G.722 -->
+	<!-- name: PAGING_defaultGroup values: 1 through 24 default is 1 -->
+	<!-- name: PAGING_enable values: 0 or 1 default is 1 -->
+	<!-- name: PAGING_timeoutInitial values: 0 through 65535 default is 60 -->
+	<!-- name: PAGING_timeoutContinuation values: 0 through 65535 default is 30 -->
+	<!-- name: PAGING_GROUPXX_enable values 0 or 1 default is 0 for 2 through 23 -->
+	<!-- name: PAGING_GROUPXX_label string values default is: "Group XX" -->
+
+	<ptt.pageMode ptt.pageMode.allowOffHookPages="%PAGING_allowOffHookPages%"
+			ptt.pageMode.codec="%PAGING_codec%"
+			ptt.pageMode.defaultGroup="%PAGING_defaultGroup%"
+			ptt.pageMode.displayName=""
+			ptt.pageMode.emergencyGroup="25"
+			ptt.pageMode.enable="%PAGING_enable%"
+			ptt.pageMode.payloadSize="20"
+			ptt.pageMode.group.1.allowTransmit="%PAGING_GROUP01_enable%"
+			ptt.pageMode.group.2.allowTransmit="%PAGING_GROUP02_enable%"
+			ptt.pageMode.group.3.allowTransmit="%PAGING_GROUP03_enable%"
+			ptt.pageMode.group.4.allowTransmit="%PAGING_GROUP04_enable%"
+			ptt.pageMode.group.5.allowTransmit="%PAGING_GROUP05_enable%"
+			ptt.pageMode.group.6.allowTransmit="%PAGING_GROUP06_enable%"
+			ptt.pageMode.group.7.allowTransmit="%PAGING_GROUP07_enable%"
+			ptt.pageMode.group.8.allowTransmit="%PAGING_GROUP08_enable%"
+			ptt.pageMode.group.9.allowTransmit="%PAGING_GROUP09_enable%"
+			ptt.pageMode.group.10.allowTransmit="%PAGING_GROUP10_enable%"
+			ptt.pageMode.group.11.allowTransmit="%PAGING_GROUP11_enable%"
+			ptt.pageMode.group.12.allowTransmit="%PAGING_GROUP12_enable%"
+			ptt.pageMode.group.13.allowTransmit="%PAGING_GROUP13_enable%"
+			ptt.pageMode.group.14.allowTransmit="%PAGING_GROUP14_enable%"
+			ptt.pageMode.group.15.allowTransmit="%PAGING_GROUP15_enable%"
+			ptt.pageMode.group.16.allowTransmit="%PAGING_GROUP16_enable%"
+			ptt.pageMode.group.17.allowTransmit="%PAGING_GROUP17_enable%"
+			ptt.pageMode.group.18.allowTransmit="%PAGING_GROUP18_enable%"
+			ptt.pageMode.group.19.allowTransmit="%PAGING_GROUP19_enable%"
+			ptt.pageMode.group.20.allowTransmit="%PAGING_GROUP20_enable%"
+			ptt.pageMode.group.21.allowTransmit="%PAGING_GROUP21_enable%"
+			ptt.pageMode.group.22.allowTransmit="%PAGING_GROUP22_enable%"
+			ptt.pageMode.group.23.allowTransmit="%PAGING_GROUP23_enable%"
+			ptt.pageMode.group.24.allowTransmit="%PAGING_GROUP24_enable%"
+			ptt.pageMode.group.25.allowTransmit="1"
+			ptt.pageMode.group.1.available="%PAGING_GROUP01_enable%"
+			ptt.pageMode.group.2.available="%PAGING_GROUP02_enable%"
+			ptt.pageMode.group.3.available="%PAGING_GROUP03_enable%"
+			ptt.pageMode.group.4.available="%PAGING_GROUP04_enable%"
+			ptt.pageMode.group.5.available="%PAGING_GROUP05_enable%"
+			ptt.pageMode.group.6.available="%PAGING_GROUP06_enable%"
+			ptt.pageMode.group.7.available="%PAGING_GROUP07_enable%"
+			ptt.pageMode.group.8.available="%PAGING_GROUP08_enable%"
+			ptt.pageMode.group.9.available="%PAGING_GROUP09_enable%"
+			ptt.pageMode.group.10.available="%PAGING_GROUP10_enable%"
+			ptt.pageMode.group.11.available="%PAGING_GROUP11_enable%"
+			ptt.pageMode.group.12.available="%PAGING_GROUP12_enable%"
+			ptt.pageMode.group.13.available="%PAGING_GROUP13_enable%"
+			ptt.pageMode.group.14.available="%PAGING_GROUP14_enable%"
+			ptt.pageMode.group.15.available="%PAGING_GROUP15_enable%"
+			ptt.pageMode.group.16.available="%PAGING_GROUP16_enable%"
+			ptt.pageMode.group.17.available="%PAGING_GROUP17_enable%"
+			ptt.pageMode.group.18.available="%PAGING_GROUP18_enable%"
+			ptt.pageMode.group.19.available="%PAGING_GROUP19_enable%"
+			ptt.pageMode.group.20.available="%PAGING_GROUP20_enable%"
+			ptt.pageMode.group.21.available="%PAGING_GROUP21_enable%"
+			ptt.pageMode.group.22.available="%PAGING_GROUP22_enable%"
+			ptt.pageMode.group.23.available="%PAGING_GROUP23_enable%"
+			ptt.pageMode.group.24.available="%PAGING_GROUP24_enable%"
+			ptt.pageMode.group.25.available="1"
+			ptt.pageMode.group.1.label="%PAGING_GROUP01_label%"
+			ptt.pageMode.group.2.label="%PAGING_GROUP02_label%"
+			ptt.pageMode.group.3.label="%PAGING_GROUP03_label%"
+			ptt.pageMode.group.4.label="%PAGING_GROUP04_label%"
+			ptt.pageMode.group.5.label="%PAGING_GROUP05_label%"
+			ptt.pageMode.group.6.label="%PAGING_GROUP06_label%"
+			ptt.pageMode.group.7.label="%PAGING_GROUP07_label%"
+			ptt.pageMode.group.8.label="%PAGING_GROUP08_label%"
+			ptt.pageMode.group.9.label="%PAGING_GROUP09_label%"
+			ptt.pageMode.group.10.label="%PAGING_GROUP10_label%"
+			ptt.pageMode.group.11.label="%PAGING_GROUP11_label%"
+			ptt.pageMode.group.12.label="%PAGING_GROUP12_label%"
+			ptt.pageMode.group.13.label="%PAGING_GROUP13_label%"
+			ptt.pageMode.group.14.label="%PAGING_GROUP14_label%"
+			ptt.pageMode.group.15.label="%PAGING_GROUP15_label%"
+			ptt.pageMode.group.16.label="%PAGING_GROUP16_label%"
+			ptt.pageMode.group.17.label="%PAGING_GROUP17_label%"
+			ptt.pageMode.group.18.label="%PAGING_GROUP18_label%"
+			ptt.pageMode.group.19.label="%PAGING_GROUP19_label%"
+			ptt.pageMode.group.20.label="%PAGING_GROUP20_label%"
+			ptt.pageMode.group.21.label="%PAGING_GROUP21_label%"
+			ptt.pageMode.group.22.label="%PAGING_GROUP22_label%"
+			ptt.pageMode.group.23.label="%PAGING_GROUP23_label%"
+			ptt.pageMode.group.24.label="%PAGING_GROUP24_label%"
+			ptt.pageMode.group.25.label="Emergencies"
+			ptt.pageMode.group.1.subscribed="%PAGING_GROUP01_enable%"
+			ptt.pageMode.group.2.subscribed="%PAGING_GROUP02_enable%"
+			ptt.pageMode.group.3.subscribed="%PAGING_GROUP03_enable%"
+			ptt.pageMode.group.4.subscribed="%PAGING_GROUP04_enable%"
+			ptt.pageMode.group.5.subscribed="%PAGING_GROUP05_enable%"
+			ptt.pageMode.group.6.subscribed="%PAGING_GROUP06_enable%"
+			ptt.pageMode.group.7.subscribed="%PAGING_GROUP07_enable%"
+			ptt.pageMode.group.8.subscribed="%PAGING_GROUP08_enable%"
+			ptt.pageMode.group.9.subscribed="%PAGING_GROUP09_enable%"
+			ptt.pageMode.group.10.subscribed="%PAGING_GROUP10_enable%"
+			ptt.pageMode.group.11.subscribed="%PAGING_GROUP11_enable%"
+			ptt.pageMode.group.12.subscribed="%PAGING_GROUP12_enable%"
+			ptt.pageMode.group.13.subscribed="%PAGING_GROUP13_enable%"
+			ptt.pageMode.group.14.subscribed="%PAGING_GROUP14_enable%"
+			ptt.pageMode.group.15.subscribed="%PAGING_GROUP15_enable%"
+			ptt.pageMode.group.16.subscribed="%PAGING_GROUP16_enable%"
+			ptt.pageMode.group.17.subscribed="%PAGING_GROUP17_enable%"
+			ptt.pageMode.group.18.subscribed="%PAGING_GROUP18_enable%"
+			ptt.pageMode.group.19.subscribed="%PAGING_GROUP19_enable%"
+			ptt.pageMode.group.20.subscribed="%PAGING_GROUP20_enable%"
+			ptt.pageMode.group.21.subscribed="%PAGING_GROUP21_enable%"
+			ptt.pageMode.group.22.subscribed="%PAGING_GROUP22_enable%"
+			ptt.pageMode.group.23.subscribed="%PAGING_GROUP23_enable%"
+			ptt.pageMode.group.24.subscribed="%PAGING_GROUP24_enable%"
+			ptt.pageMode.group.25.subscribed="1"
+			ptt.pageMode.priorityGroup="24">
+			<ptt.pageMode.transmit>
+				<ptt.pageMode.transmit.timeout
+				ptt.pageMode.transmit.timeout.continuation="%PAGING_timeoutContinuation%"
+				ptt.pageMode.transmit.timeout.initial="%PAGING_timeoutInitial%">
+				</ptt.pageMode.transmit.timeout>
+			</ptt.pageMode.transmit>
+	</ptt.pageMode>
+
+	<!-- RT 411712 - Adjust Paging Button -->
+	<efk>
+		<efklist efk.efklist.3.mname="grppage1" efk.efklist.3.label="Paging" efk.efklist.3.status="1" efk.efklist.3.action.string="$FPage$"/>
+		<softkey softkey.3.label="Paging" softkey.3.action="!grppage1" softkey.3.enable="%PAGING_enable%" softkey.3.precede="0" softkey.3.use.idle="0" softkey.3.use.active="0" softkey.3.use.alerting="0" softkey.3.use.dialtone="%PAGING_enable%" softkey.3.use.proceeding="0" softkey.3.use.setup="0" softkey.3.use.hold="%PAGING_enable%"/>
+	</efk>
+
+
+<!-- 15 Polycom Push To Talk Paging - Multicast -->
+
+

@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:38:51
+  @File Name: 90-Keys-VVX410-UC4.1.6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:02
+  @Created time: 2015-12-15 16:38:51
+-->
+
+
+<!-- 90 VVX410 Soft Keys -->
+	<!--VVX410 Soft Keys -->
+	<!-- Idle Screen: NewCall Paging DND DIR -->
+	<!-- DIR Key should be removed or updated to use BroadSoft Directory -->
+	<softkey softkey.1.enable="1" softkey.1.label="DIR" softkey.1.action="$FMenu$$FArrowRight$$FArrowRight$$FSelect$$FSelect$" softkey.1.use.idle="1"/>
+	<softkey softkey.feature.directories="0"/>
+
+<!-- 90 VVX410 Soft Keys -->
+

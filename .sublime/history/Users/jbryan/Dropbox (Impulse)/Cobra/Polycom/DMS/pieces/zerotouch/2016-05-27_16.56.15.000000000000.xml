@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-27 12:59:04
+  @File Name: 000000000000.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-27 16:56:15
+  @Created time: 2016-05-27 12:59:04
+-->
+
+
+
+<!-- Impulse Master SIP Configuration File -->
+
+<!-- As of JB20160527, VVX601 will not accept this file with other defined APPLICATION_x types -->
+
+
+<APPLICATION APP_FILE_PATH="" CONFIG_FILES="eula.cfg, flash-[PHONE_MAC_ADDRESS].cfg, [PHONE_MODEL]-phoneBWDEVICEID.cfg" >
+</APPLICATION>

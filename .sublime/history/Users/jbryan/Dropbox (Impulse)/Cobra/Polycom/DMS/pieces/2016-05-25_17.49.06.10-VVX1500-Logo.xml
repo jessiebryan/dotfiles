@@ -1,0 +1,16 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:17
+  @File Name: 10-VVX1500-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:06
+  @Created time: 2015-12-15 16:37:17
+-->
+
+
+<!-- 10 Logo -->
+	<idleDisplay mb.idleDisplay.home="%LOGOURL_VVX1500%" mb.idleDisplay.refresh="7200" />
+<!-- 10 Logo -->
+

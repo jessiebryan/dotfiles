@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-27 13:01:11
+  @File Name: phoneBWDEVICEID.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-27 13:05:18
+  @Created time: 2016-05-27 13:01:11
+-->
+
+
+<phone1>
+   <device device.set="1">
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt="2" />
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt.set="1" />
+      <device.prov device.net.etherVlanFilter="1" />
+      <device.prov device.net.etherVlanFilter.set="1" />
+      <device.prov device.prov.serverType="2" />
+      <device.prov device.prov.serverType.set="1" />
+      <device.prov device.prov.serverName.set="1" />
+      <device.prov device.prov.serverName="impvoip.net/dms/p" />
+
+      <device.prov device.prov.serverName.SPIP301="impvoip.net/dms/spip301" />
+      <device.prov device.prov.serverName.SPIP301.set="1" />
+
+      <device.prov device.prov.serverName.SPIP320="impvoip.net/dms/spip320" />
+      
+      <device.prov device.prov.serverName.SPIP321="impvoip.net/dms/spip321" />
+      
+      <device.prov device.prov.serverName.SPIP330="impvoip.net/dms/spip330" />
+      
+      <device.prov device.prov.serverName.SPIP331="impvoip.net/dms/spip331" />
+      
+      <device.prov device.prov.serverName.SPIP335="impvoip.net/dms/spip335" />
+      
+      <device.prov device.prov.serverName.SPIP430="impvoip.net/dms/spip430" />
+      
+      <device.prov device.prov.serverName.SPIP450="impvoip.net/dms/spip450" />
+      
+      <device.prov device.prov.serverName.SPIP501="impvoip.net/dms/spip501" />
+      
+      <device.prov device.prov.serverName.SPIP550="impvoip.net/dms/spip550" />
+      
+      <device.prov device.prov.serverName.SPIP560="impvoip.net/dms/spip560" />
+      
+      <device.prov device.prov.serverName.SPIP600="impvoip.net/dms/spip600" />
+      
+      <device.prov device.prov.serverName.SPIP601="impvoip.net/dms/spip601" />
+      
+      <device.prov device.prov.serverName.SPIP650="impvoip.net/dms/spip650" />
+      
+      <device.prov device.prov.serverName.SPIP670="impvoip.net/dms/spip670" />
+      
+      <device.prov device.prov.serverName.SSIP4000="impvoip.net/dms/ssip4000" />
+      
+      <device.prov device.prov.serverName.SSIP5000="impvoip.net/dms/ssip5000" />
+      
+      <device.prov device.prov.serverName.SSIP6000="impvoip.net/dms/ssip6000" />
+      
+      <device.prov device.prov.serverName.SSIP7000="impvoip.net/dms/ssip7000" />
+      
+      <device.prov device.prov.serverName.VVX300="impvoip.net/dms/vvx300" />
+      
+      <device.prov device.prov.serverName.VVX301="impvoip.net/dms/vvx301" />
+      
+      <device.prov device.prov.serverName.VVX310="impvoip.net/dms/vvx310" />
+      
+      <device.prov device.prov.serverName.VVX400="impvoip.net/dms/vvx400" />
+      
+      <device.prov device.prov.serverName.VVX401="impvoip.net/dms/vvx401" />      
+      
+      <device.prov device.prov.serverName.VVX410="impvoip.net/dms/vvx410" />
+      
+      <device.prov device.prov.serverName.VVX500="impvoip.net/dms/vvx500" />
+      
+      <device.prov device.prov.serverName.VVX501="impvoip.net/dms/vvx501" />
+
+      <device.prov device.prov.serverName.VVX600="impvoip.net/dms/vvx600" />
+      <device.prov device.prov.serverName.VVX600.set="1" />
+
+      <device.prov device.prov.serverName.VVX601="impvoip.net/dms/vvx601" />      
+      <device.prov device.prov.serverName.VVX601.set="1" />            
+      
+      <device.prov device.prov.serverName.VVX1500="impvoip.net/dms/vvx1500" />
+      <device.prov device.prov.serverName.VVX1500.set="1" />      
+   </device>
+</phone1>

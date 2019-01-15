@@ -1,0 +1,22 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 15:54:40
+  @File Name: 90-Keys-VVX401-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:03
+  @Created time: 2016-05-03 15:54:40
+-->
+
+
+<!-- 90 VVX401 Soft Keys -->
+        <!-- JB20160422 Soft Key Changes -->
+        <homeScreen.forward homeScreen.forward.enable="0"/>
+        <homeScreen.application homeScreen.application.enable="0"/>
+        <homeScreen.calendar homeScreen.calendar.enable="0"/>
+        <softkey.feature softkey.feature.forward="1"/>
+        <!-- JB20160422 Soft Key Changes -->
+
+<!-- 90 VVX401 Soft Keys -->
+

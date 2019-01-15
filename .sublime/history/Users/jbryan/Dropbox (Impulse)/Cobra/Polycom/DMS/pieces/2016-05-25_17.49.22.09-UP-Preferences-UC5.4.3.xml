@@ -1,0 +1,38 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 09:00:58
+  @File Name: 09-UP-Preferences-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:22
+  @Created time: 2016-04-22 09:00:58
+-->
+
+
+<!-- 09 User Preferences -->
+	<up up.callTypePromptPref="1" up.enableCallTypePrompt="1" up.idleTimeout="40" up.lineKeyCallTerminate="0" 
+		up.lineKeyCallTerminate.SPIP231="1"
+		up.lineKeyCallTerminate.SPIP235T="1" up.numberFirstCID="0" up.oneTouchVoiceMail="%ONETOUCHVM%"/>
+
+
+	<up.headset up.headset.phoneVolumeControl="auto">
+	</up.headset>
+
+        <voice.volume>
+                <voice.volume.persist voice.volume.persist.handset="1" voice.volume.persist.handsfree="1" voice.volume.persist.headset="1" voice.volume.persist.usbHeadset="1">
+                <voice.volume.persist.bluetooth voice.volume.persist.bluetooth.headset="1">
+                </voice.volume.persist.bluetooth>
+                <voice.volume.persist.usb voice.volume.persist.usb.handsfree="1">
+                </voice.volume.persist.usb>
+                </voice.volume.persist>
+        </voice.volume>
+
+        <!-- DMS Tags: FEATURE_SIDETONE, (Values: -90 through 90, default is 0) RT330235 -->
+        <voice.handset voice.handset.st="%FEATURE_SIDETONE%"/>
+
+        <!-- DMS Tags: %%BWLANGUAGE-1%% (From Seat Profile Language Setting, then maps to Device Language) RT330101 -->
+        <lcl.ml lcl.ml.lang="%BWLANGUAGE-1%" />
+
+<!-- 09 User Preferences -->
+

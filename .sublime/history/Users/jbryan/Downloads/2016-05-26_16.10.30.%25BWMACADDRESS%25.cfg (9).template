@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- $RCSfile: 000000000000.cfg,v $  $Revision: 1.23.8.5 $ -->
+
+<!-- Impulse Polycom Master SIP Configuration File-->
+<!-- Polycom SpectraLink 8440 -->
+<!-- Running %SL8440_APP_VERSION% -->
+<!-- File Generated: %BWTIMESTAMP% -->
+
+<!-- Impulse Edits | 2013.08.21JB -->
+<!-- Added flash-file1.cfg for SSL/DNS/Syslog -->
+
+	<APPLICATION APP_FILE_PATH=""
+		CONFIG_FILES="%SUPPLEMENTAL_FILES% BWDEVICE_[PHONE_MAC_ADDRESS].cfg" MISC_FILES="" LOG_FILE_DIRECTORY="" OVERRIDES_DIRECTORY="" CONTACTS_DIRECTORY="" LICENSE_DIRECTORY="">
+	</APPLICATION>
+

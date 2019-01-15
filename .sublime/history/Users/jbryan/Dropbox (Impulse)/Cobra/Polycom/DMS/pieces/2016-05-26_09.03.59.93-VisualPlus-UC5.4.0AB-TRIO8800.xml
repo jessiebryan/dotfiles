@@ -1,0 +1,67 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-01 12:40:19
+  @File Name: 93-VisualPlus-UC5.4.0AB-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:03:59
+  @Created time: 2016-02-01 12:40:19
+-->
+
+
+<!-- 93 Real Presence Visual+ -->
+
+	<!-- Video Processing -->
+	<!-- General -->
+	<!-- video.conf.profile Default 3, valid values are: 2-7  -->
+	<!-- 1 = 1080p,  2 = 720p, 3 = 540p, 4 = 480p,  5 = 360p, 6 = 240p, 7 = 180p -->
+	<video.conf video.conf.profile="%RP8800_VISUALPLUS_CENTRALCONF_PROFILE%"/>
+
+
+	<!-- RTCP Bandwidth Detection -->
+	<!-- video.rtcpbandwidthdetect.enable Default is 0, valid values are 0 or 1 -->
+	<video.rtcpbandwidthdetect video.rtcpbandwidthdetect.enable="%RP8800_VISUALPLUS_RTCPBWDETECT%">
+
+
+	<!-- Networked Devices -->
+	<!-- mr.pair.uid.1 is the MAC address (Serial Number [S/N] of the RealPresence Trio Visual+ you want to pair with. -->
+	<!-- value must be only numbers and letters(lower case) ie: 0004f2fd1379 -->
+	<mr.pair mr.pair.uid.1="%RP8800_VISUALPLUS_MAC%"/>
+
+	<!-- Audio Settings ->
+	<!-- up.audio.networkedDevicePlayout default is 1, valid values are 1,2,3 -->
+	<!-- 1 = Phone, 2 = TV Speakers, 3 = Automatic based on call type -->
+	<up.audio up.audio.networkedDevicePlayout="%RP8800_VISUALPLUS_AUDIOPATH%"/>
+
+	<!-- Display Settings ->
+	<!-- Set the background image for the paired RealPresence Trio Visual+ display.
+		Valid values are:
+		0 = automatically cycle through, 1 = "Blue Gradient", 2 = "Hallstatter See Lake"(DEFAULT), 4 = "Bavarian Alps", 4 = "Forget Me Not Pond"
+	-->
+	<mr.bg mr.bg.selection="%RP8800_VISUALPLUS_BG%"/>
+
+	<!-- Camera Auto Focus -->
+	<!-- 0 = off, 1 = on Default is 0, 1 is ideal for portrait but not for conference rooms -->
+	<mr.video mr.video.camera.focus.auto="%RP8800_VISUALPLUS_AUTOFOCUS%"/>
+
+	<!-- powerSaving.cecEnable 0 or 1 ->
+	<!-- if 1, Trio enters power-saving mode, visual+ switches to standby mode and powers up when Trio exits power-saving mode. -->
+	<!-- if 0, Trio Visual+ display behavior is controlled only by the value set for powerSaving.tvStandbyMade  -->
+	<powerSaving.cecEnable powerSaving.cecEnable="%RP8800_VISUALPLUS_PWRCEC%"/>
+
+
+	<!-- Camera / Video Settings -->
+	<video
+		video.autoFullScreen="%VIDEO_AUTOFULLSCREEN_MODE%"
+		video.maxCallRate="%VIDEO_MAXCALL_RATE%"
+		video.callRate="%VIDEO_CALL_RATE%"
+		video.screenModeFS="%VIDEO_SCREEN_MODE%"
+		video.quality="%VIDEO_QUALITY%"
+		video.enable="%VIDEO_ENABLE%">
+	</video>
+	<video.camera video.camera.frameRate="%VIDEO_FRAME_RATE%"/>
+
+
+<!-- 93 Real Presence Visual+ -->
+

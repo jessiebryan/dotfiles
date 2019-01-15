@@ -1,0 +1,33 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:40:26
+  @File Name: 11-DialPlan.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:53
+  @Created time: 2015-12-15 16:40:26
+-->
+
+
+<!-- 11 Dial Plan -->
+
+	<!-- JB20150918 disabled Custom TAG -->
+	<!-- System/Enterprise/Group level Public Dial Plan values are managed in Portal -->
+	<!-- <dialplan dialplan.digitmap="%PLCM-DIALPLAN%" /> -->
+
+	<dialplan dialplan.1.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-1%" />
+	<dialplan dialplan.2.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-2%" />
+	<dialplan dialplan.3.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-3%" />
+	<dialplan dialplan.4.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-4%" />
+	<dialplan dialplan.5.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-5%" />
+	<dialplan dialplan.6.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-6%" />
+	<dialplan dialplan.7.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-7%" />
+	<dialplan dialplan.8.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-8%" />
+	<dialplan dialplan.9.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-9%" />
+	<dialplan dialplan.10.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-10%" />
+	<dialplan dialplan.11.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-11%" />
+	<dialplan dialplan.12.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-12%" />
+
+<!-- 11 Dial Plan -->
+

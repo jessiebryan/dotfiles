@@ -1,0 +1,19 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 10:16:24
+  @File Name: 22-Bluetooth-UC5.4.3-VVX600.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:05:25
+  @Created time: 2016-04-22 10:16:24
+-->
+
+
+<!-- 22 Bluetooth Signaling -->
+
+	<feature.bluetooth feature.bluetooth.enabled="%FEATURE_BLUETOOTH%"/>
+	<bluetooth bluetooth.radioOn="%FEATURE_BLUETOOTH%"/>
+
+<!-- 22 Bluetooth Signaling -->
+

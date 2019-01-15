@@ -1,0 +1,162 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-09 09:01:05
+  @File Name: 19-DNS-CACHE-UC5.4.1AA.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:23
+  @Created time: 2016-02-09 09:01:05
+-->
+
+
+<!-- 19 DNS Cache -->
+	<dns>
+		<dns.cache>
+			<dns.cache.NAPTR dns.cache.NAPTR.1.name="impulsevoip.net"
+				dns.cache.NAPTR.1.order="1"
+				dns.cache.NAPTR.1.preference="1"
+				dns.cache.NAPTR.1.flags="s"
+				dns.cache.NAPTR.1.service="SIP+D2U"
+				dns.cache.NAPTR.1.regexp=""
+				dns.cache.NAPTR.1.replacement="_sip._udp.impulsevoip.net"/> 
+
+			<dns.cache.NAPTR dns.cache.NAPTR.2.name="impulsevoip.net"
+				dns.cache.NAPTR.2.order="1"
+				dns.cache.NAPTR.2.preference="1"
+				dns.cache.NAPTR.2.flags="s"
+				dns.cache.NAPTR.2.service="SIP+D2T"
+				dns.cache.NAPTR.2.regexp=""
+				dns.cache.NAPTR.2.replacement="_sip._tcp.impulsevoip.net"/> 
+
+			<dns.cache.NAPTR dns.cache.NAPTR.3.name="testnat.impulsevoip.net"
+				dns.cache.NAPTR.3.order="1"
+				dns.cache.NAPTR.3.preference="1"
+				dns.cache.NAPTR.3.flags="s"
+				dns.cache.NAPTR.3.service="SIP+D2U"
+				dns.cache.NAPTR.3.regexp=""
+				dns.cache.NAPTR.3.replacement="_sip._udp.testnat.impulsevoip.net"/> 
+
+			<dns.cache.NAPTR dns.cache.NAPTR.4.name="nat.impulsevoip.net"
+				dns.cache.NAPTR.4.order="1"
+				dns.cache.NAPTR.4.preference="1"
+				dns.cache.NAPTR.4.flags="s"
+				dns.cache.NAPTR.4.service="SIP+D2U"
+				dns.cache.NAPTR.4.regexp=""
+				dns.cache.NAPTR.4.replacement="_sip._udp.nat.impulsevoip.net"/> 
+
+			<dns.cache.NAPTR dns.cache.NAPTR.5.name="nat.impulsevoip.net"
+				dns.cache.NAPTR.5.order="1"
+				dns.cache.NAPTR.5.preference="1"
+				dns.cache.NAPTR.5.flags="s"
+				dns.cache.NAPTR.5.service="SIP+D2T"
+				dns.cache.NAPTR.5.regexp=""
+				dns.cache.NAPTR.5.replacement="_sip._tcp.nat.impulsevoip.net"/> 
+
+			<dns.cache.SRV dns.cache.SRV.1.name="_sip._udp.impulsevoip.net"
+				dns.cache.SRV.1.port="5060"
+				dns.cache.SRV.1.priority="10"
+				dns.cache.SRV.1.target="sbcreg1.impulsevoip.net"
+				dns.cache.SRV.1.ttl="300"
+				dns.cache.SRV.1.weight="50"/>
+
+			<dns.cache.SRV dns.cache.SRV.2.name="_sip._udp.impulsevoip.net"
+				dns.cache.SRV.2.port="5060"
+				dns.cache.SRV.2.priority="10"
+				dns.cache.SRV.2.target="sbcreg2.impulsevoip.net"
+				dns.cache.SRV.2.ttl="300"
+				dns.cache.SRV.2.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.3.name="_sip._tcp.impulsevoip.net"
+				dns.cache.SRV.3.port="5060"
+				dns.cache.SRV.3.priority="10"
+				dns.cache.SRV.3.target="sbcreg1.impulsevoip.net"
+				dns.cache.SRV.3.ttl="300"
+				dns.cache.SRV.3.weight="50"/>
+
+			<dns.cache.SRV dns.cache.SRV.4.name="_sip._udp.impulsevoip.net"
+				dns.cache.SRV.4.port="5060"
+				dns.cache.SRV.4.priority="10"
+				dns.cache.SRV.4.target="sbcreg2.impulsevoip.net"
+				dns.cache.SRV.4.ttl="300"
+				dns.cache.SRV.4.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.5.name="_sip._udp.testnat.impulsevoip.net"
+				dns.cache.SRV.5.port="5060"
+				dns.cache.SRV.5.priority="10"
+				dns.cache.SRV.5.target="canarynat.impulse.net"
+				dns.cache.SRV.5.ttl="300"
+				dns.cache.SRV.5.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.6.name="_sip._udp.nat.impulsevoip.net"
+				dns.cache.SRV.6.port="5066"
+				dns.cache.SRV.6.priority="10"
+				dns.cache.SRV.6.target="sbcreg1.impulsevoip.net"
+				dns.cache.SRV.6.ttl="300"
+				dns.cache.SRV.6.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.7.name="_sip._tcp.nat.impulsevoip.net"
+				dns.cache.SRV.7.port="5066"
+				dns.cache.SRV.7.priority="10"
+				dns.cache.SRV.7.target="sbcreg2.impulsevoip.net"
+				dns.cache.SRV.7.ttl="300"
+				dns.cache.SRV.7.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.8.name="_ntp._udp.ntp.impulse.net"
+				dns.cache.SRV.8.port="123"
+				dns.cache.SRV.8.priority="10"
+				dns.cache.SRV.8.target="bordeaux.impulse.net"
+				dns.cache.SRV.8.ttl="300"
+				dns.cache.SRV.8.weight="50"/> 
+
+			<dns.cache.SRV dns.cache.SRV.9.name="_ntp._udp.ntp.impulse.net"
+				dns.cache.SRV.9.port="123"
+				dns.cache.SRV.9.priority="10"
+				dns.cache.SRV.9.target="burgundy.impulse.net"
+				dns.cache.SRV.9.ttl="300"
+				dns.cache.SRV.9.weight="50"/> 
+
+			<dns.cache.A dns.cache.A.1.name="sbcreg1.impulsevoip.net"
+				dns.cache.A.1.ttl="300"
+				dns.cache.A.1.address="207.154.68.50"/> 
+
+			<dns.cache.A dns.cache.A.2.name="sbcreg2.impulsevoip.net"
+				dns.cache.A.2.ttl="300"
+				dns.cache.A.2.address="64.68.142.50"/> 
+
+			<dns.cache.A dns.cache.A.3.name="canary.impulse.net"
+				dns.cache.A.3.ttl="300"
+				dns.cache.A.3.address="207.154.64.25"/> 
+
+			<dns.cache.A dns.cache.A.4.name="info.impvoip.net"
+				dns.cache.A.4.ttl="300"
+				dns.cache.A.4.address="207.154.88.39"/> 
+
+			<dns.cache.A dns.cache.A.5.name="demon.impulse.net"
+				dns.cache.A.5.ttl="300"
+				dns.cache.A.5.address="207.154.64.163"/> 
+
+			<dns.cache.A dns.cache.A.6.name="impvoip.net"
+				dns.cache.A.6.ttl="300"
+				dns.cache.A.6.address="207.154.68.139"/> 
+
+			<dns.cache.A dns.cache.A.7.name="impvoip.net"
+				dns.cache.A.7.ttl="300"
+				dns.cache.A.7.address="64.68.142.139"/> 
+
+			<dns.cache.A dns.cache.A.8.name="bordeaux.impulse.net"
+				dns.cache.A.8.ttl="300"
+				dns.cache.A.8.address="207.154.64.10"/> 
+
+			<dns.cache.A dns.cache.A.9.name="burgundy.impulse.net"
+				dns.cache.A.9.ttl="300"
+				dns.cache.A.9.address="207.154.65.10"/> 
+
+			<dns.cache.A dns.cache.A.10.name="canarynat.impulse.net"
+				dns.cache.A.10.ttl="300"
+				dns.cache.A.10.address="207.154.64.44"/> 
+
+		</dns.cache>
+	</dns>
+<!-- 19 DNS Cache -->
+

@@ -1,0 +1,19 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-20 10:31:02
+  @File Name: 22-Bluetooth-UC5.4.2AB-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:05:25
+  @Created time: 2016-04-20 10:31:02
+-->
+
+
+<!-- 22 Bluetooth Signaling -->
+
+        <feature.bluetooth feature.bluetooth.enabled="%FEATURE_BLUETOOTH%"/>
+        <bluetooth bluetooth.radioOn="%FEATURE_BLUETOOTH%"/>
+
+<!-- 22 Bluetooth Signaling -->
+

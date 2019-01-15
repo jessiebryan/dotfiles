@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Impulse Master SIP Configuration File -->
+<!-- Located /Volumes/UserData/shared/clients/clec/Impulse Advanced Communications/Profile Server Templates/Polycom/4.0.1B configs  -->
+<!-- $RCSfile: 000000000000.cfg,v $  $Revision: 1.30.0 $ -->
+<!-- Last update: JDB 2012/4/8 -->
+<!-- -->
+
+<!-- Impulse Edits | 2012.04.07JB -->
+<!-- Added flash-file1.cfg for Basic Support Settings -->
+
+
+<APPLICATION APP_FILE_PATH="sip-%VVX601_APP_VERSION%.ld" CONFIG_FILES="ssl.cfg" MISC_FILES="" LOG_FILE_DIRECTORY="" OVERRIDES_DIRECTORY="" CONTACTS_DIRECTORY="" LICENSE_DIRECTORY="">
+</APPLICATION>

@@ -1,0 +1,37 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:44:51
+  @File Name: 23-Microbrowser-UC4.1.6-VVX310.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:05:19
+  @Created time: 2015-12-15 16:44:51
+-->
+
+
+<!-- 23 Microbrowser Settings -->
+	<mb mb.proxy="">
+	<mb.idleDisplay mb.idleDisplay.home="" mb.idleDisplay.refresh="0">
+			</mb.idleDisplay>
+		<mb.main mb.main.autoBackKey="1" mb.main.home="%BROWSER_URL%" mb.main.idleTimeout="40" mb.main.statusbar="0">
+			<mb.main.toolbar>
+				<mb.main.toolbar.autoHide mb.main.toolbar.autoHide.enabled="1" mb.main.toolbar.autoHide.enabled.SL8440="0" mb.main.toolbar.autoHide.enabled.SL8450="0" mb.main.toolbar.autoHide.enabled.SL8452="0">
+				</mb.main.toolbar.autoHide>
+			</mb.main.toolbar>
+	</mb.main>
+
+
+        <mb>
+                <mb.main mb.main.idletimeout="1" />
+        </mb>
+
+
+   <lcl.ml lcl.ml.lang.clock.6.format="D,d"/>
+   <lcl.ml lcl.ml.lang="0"/>
+   <lcl.datetime lcl.datetime.date.longFormat="0"/>
+    
+
+
+<!-- 23 Microbrowser Settings -->
+

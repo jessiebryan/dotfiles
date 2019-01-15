@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:38:24
+  @File Name: 13-Hoteling-UC4.1.6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:49
+  @Created time: 2015-12-15 16:38:24
+-->
+
+
+<!-- 13 Hoteling -->
+	<!-- If we use hoteling - we need to specify which registration has it. -->
+	<hoteling hoteling.reg="%FEATURE_HOTELREGLINE%"/>
+
+	<feature>
+		<feature.hoteling feature.hoteling.enabled="%FEATURE_HOTELING%"/>
+	</feature>
+<!-- 13 Hoteling -->
+

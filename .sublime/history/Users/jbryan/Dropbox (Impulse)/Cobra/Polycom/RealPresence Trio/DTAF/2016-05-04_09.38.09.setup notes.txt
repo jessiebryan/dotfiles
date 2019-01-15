@@ -1,0 +1,67 @@
+Polycom Trio8800
+
+DMS Url: https impvoip.net 443 /dms/trio8800/
+
+
+
+pair cfg: 		mr.pair.uid.1="0004f2fd1379"
+
+Jessie Test Unit: 0004f2fd4216
+
+
+Observations
+ - SSL is not working
+ - Video Camera is powered off once DMS is pulled 
+
+
+
+
+
+Feb  8 15:28:35 gi0-1 0004f2fd4216|0208152835|cfg  |*|00|Prm|BWDEVICE_0004f2fd4216.cfg: Value "1" for configuration parameter up.audio.networkedDevicePlayout is invalid, ignoring.  Valid values are:
+Feb  8 15:28:35 gi0-1 0004f2fd4216|0208152835|cfg  |*|00|Prm|BWDEVICE_0004f2fd4216.cfg:    "PhoneOnly"
+Feb  8 15:28:35 gi0-1 0004f2fd4216|0208152835|cfg  |*|00|Prm|BWDEVICE_0004f2fd4216.cfg:    "TvOnly"
+Feb  8 15:28:35 gi0-1 0004f2fd4216|0208152835|cfg  |*|00|Prm|BWDEVICE_0004f2fd4216.cfg:    "Auto"
+        <!-- Audio Settings ->
+        <!-- up.audio.networkedDevicePlayout default is 1, valid values are 1,2,3 -->
+        <!-- 1 = Phone, 2 = TV Speakers, 3 = Automatic based on call type -->
+        <up.audio up.audio.networkedDevicePlayout="%RP8800_VISUALPLUS_AUDIOPATH%"/>
+
+
+UCS 5.4.0AA does not work with StarField Root CA.
+ 
+ 
+ <APPLICATION APP_FILE_PATH_TRIO8800="" CONFIG_FILES_TRIO8800="flash-[MACADDRESS].cfg, trio8800-phoneBWDEVICEID.cfg" />
+ 
+ 
+ [root@cpi ZeroTouch]# cat trio8800-phoneBWDEVICEID.cfg
+<!-- $RCSfile: phoneBWDEVICEID.cfg,v $  $Revision: 1.93 $ -->
+<phone1>
+   <device device.set="1">
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt="2" />
+      <device.prov.dhcp device.dhcp.bootSrvUseOpt.set="1" />
+      <device.prov device.prov.serverType="2" />
+      <device.prov device.prov.serverType.set="1" />
+      <device.prov device.prov.serverName="impvoip.net/dms/trio8800" />
+      <device.prov device.prov.serverName.set="1" />
+   </device>
+</phone1>
+
+
+
+CUSTOM TAGS FOR TRIO8800
+RP8800_APP_VERSION = 5.4.0AB
+RP8800_APP_VERSION_BOOTSTRAP = 5.4.0AB
+LOGOURL_TRIO8800 =
+
+RP8800_SMARTPAIRING = {1,2 : 2 }
+RP8800_SMARTPAIRING_VOLUME = {1,10 : 6 }
+RP8800_VISUALPLUS_CENTRALCONF_PROFILE = {1,7 : 2 }
+RP8800_VISUALPLUS_RTCPBWDETECT = {0,1 : 1 }
+FEATURE_NOISEBLOCK
+RP8800_VISUALPLUS_MAC = { "" : "" }
+RP8800_VISUALPLUS_AUDIOPATH = { 1,3 : 1 }
+RP8800_VISUALPLUS_AUDIOPATH = { PhoneOnly,TVOnly,Auto: PhoneOnly }
+
+RP8800_VISUALPLUS_BG = { 0,4 : 0 }
+RP8800_VISUALPLUS_AUTOFOCUS = { 0,1 : 0 }
+RP8800_VISUALPLUS_PWRCEC = { 0,1 : 1 }

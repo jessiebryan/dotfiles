@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:38:32
+  @File Name: 18-checkSync-UC4.1.6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 12:10:12
+  @Created time: 2015-12-15 16:38:32
+-->
+
+
+<!-- 18 checkSync - SIP NOTIFY For Remote Reboots -->
+	<voIpProt.SIP>
+		<voIpProt.SIP.specialEvent>
+						<voIpProt.SIP.specialEvent.checkSync voIpProt.SIP.specialEvent.checkSync.alwaysReboot="1">
+						</voIpProt.SIP.specialEvent.checkSync>
+				</voIpProt.SIP.specialEvent>
+		</voIpProt.SIP>
+<!-- 18 checkSync - SIP NOTIFY For Remote Reboots -->
+

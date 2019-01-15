@@ -1,0 +1,24 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-15 10:11:14
+  @File Name: 90-Keys-321-UC4.0.10.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:15
+  @Created time: 2016-04-15 10:11:14
+-->
+
+
+<!-- 90 321 Soft Keys -->
+	<!--IP3XX Soft Keys -->
+	<!-- Idle Screen: NewCall Callers more... FWD DND more.. Dir ___ more...-->
+	<softkey softkey.1.enable="1" softkey.1.label="FWD" softkey.1.action="$FDivert$" softkey.1.use.idle="1"/>
+	<softkey softkey.2.enable="1" softkey.2.label="DND" softkey.2.action="$FDoNotDisturb$" softkey.2.use.idle="1"/>
+	<softkey softkey.3.enable="1" softkey.3.label="DIR" softkey.3.action="$FMenu$$FDialpad1$$FDialpad4$" softkey.3.use.idle="1"/>
+	<softkey softkey.feature.directories="0"/>
+
+	<!-- Disable Line2 Hard Key - Map to "Messages" -->
+	<keys key.scrolling.timeout="1" key.SPIP321.10.function.prim="Messages" />
+<!-- 90 321 Soft Keys -->
+

@@ -1,0 +1,24 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:51:32
+  @File Name: 30-requestValidation-UC4.1.6-VVX400.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:48
+  @Created time: 2015-12-15 16:51:32
+-->
+
+
+<!-- 30 Request Validation Security - blocks sipVicious RT359062 -->
+	<!-- DMS Tags for RequestValidation -->
+	<!-- name: FEATURE_REQVALIDATION_METHOD values: Null, source, digest, both, all, default is Null -->
+	<!-- name: FEATURE_REQVALIDATION_REQUEST values: INVITE, ACK, BYE, REGISTER, CANCEL, OPTIONS, INFO, MESSAGE< SUBSCRIBE, NOTIFY, REFER, PRACK, UPDATE default is Null -->
+	<!-- warning: setting FEATURE_REQVALIDATION_METHOD to source breaks ClearStar when phone is behind SIP ALG -->
+	<!-- warning: setting FEATURE_REQVALIDATION_METHOD to source is only recommended for dumb-router, remote office deployments -->
+	<!-- Jessie Bryan, 2014-12-19 -->
+
+	<voIpProt.SIP.requestValidation voIpProt.SIP.requestValidation.1.method="%FEATURE_REQVALIDATION_METHOD%" voIpProt.SIP.requestValidation.1.request="%FEATURE_REQVALIDATION_REQUEST%" />
+
+<!-- 30 Request Validation Security - blocks sipVicious RT359062 -->
+

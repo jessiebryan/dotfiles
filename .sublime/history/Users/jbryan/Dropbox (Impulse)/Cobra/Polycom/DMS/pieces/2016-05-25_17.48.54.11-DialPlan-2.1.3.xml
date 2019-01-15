@@ -1,0 +1,16 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:38:06
+  @File Name: 11-DialPlan-2.1.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:54
+  @Created time: 2015-12-15 16:38:06
+-->
+
+
+<!-- 11 Dial Plan -->
+	<dialplan dialplan.digitmap="%BWDIALPLAN-PUBLIC-DIGIT-MAP-1%" />
+<!-- 11 Dial Plan -->
+

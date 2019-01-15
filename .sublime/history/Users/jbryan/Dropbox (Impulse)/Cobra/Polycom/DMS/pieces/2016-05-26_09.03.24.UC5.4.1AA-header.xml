@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-09 09:01:06
+  @File Name: UC5.4.1AA-header.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:03:24
+  @Created time: 2016-02-09 09:01:06
+-->
+
+
+
+	<!-- FILE GENERATED ON %BWTIMESTAMP% -->
+
+	<!-- Impulse Edits | 2016.01.28JB -->
+	<!-- 5.4.1AA This Release is just for Real Presence TRIO8800 Phones -->
+
+
+	<!-- Generated reg-basic.cfg Configuration File -->
+	<polycomConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="polycomConfig.xsd">
+

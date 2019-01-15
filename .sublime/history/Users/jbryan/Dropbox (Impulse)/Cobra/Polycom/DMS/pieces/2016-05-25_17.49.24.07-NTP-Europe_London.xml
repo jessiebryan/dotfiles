@@ -1,0 +1,42 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:41:18
+  @File Name: 07-NTP-Europe_London.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:24
+  @Created time: 2015-12-15 16:41:18
+-->
+
+
+<!-- 07 NTP Settings -->
+	<!-- SNTP_OBSERVE_DST boolean values 0 or 1, default 1 -->
+
+
+
+	<!-- United Kingdom has 1 Time Zone, (GMT) -->
+	<!-- British Summer Time is GMT+1 -->
+	<!-- Starts: last Sunday of March -->
+	<!-- Ends:   last Sunday of October -->
+	<!-- https://en.wikipedia.org/wiki/British_Summer_Time -->
+
+	<SNTP tcpIpApp.sntp.resyncPeriod="86400"
+		tcpIpApp.sntp.address="%SNTP_SERVER%"
+		tcpIpApp.sntp.address.overrideDHCP="%SNTP_GMT_OVERRIDE%"
+		tcpIpApp.sntp.gmtOffset="%BWTIMEZONE-1%"
+		tcpIpApp.sntp.gmtOffset.overrideDHCP="%SNTP_GMT_OVERRIDE%"
+		tcpIpApp.sntp.daylightSavings.enable="%SNTP_OBSERVE_DST%"
+		tcpIpApp.sntp.daylightSavings.fixedDayEnable="0"
+		tcpIpApp.sntp.daylightSavings.start.month="3"
+		tcpIpApp.sntp.daylightSavings.start.date="8"
+		tcpIpApp.sntp.daylightSavings.start.time="2"
+		tcpIpApp.sntp.daylightSavings.start.dayOfWeek="1"
+		tcpIpApp.sntp.daylightSavings.start.dayOfWeek.lastInMonth="1"
+		tcpIpApp.sntp.daylightSavings.stop.month="11"
+		tcpIpApp.sntp.daylightSavings.stop.date="1"
+		tcpIpApp.sntp.daylightSavings.stop.time="2"
+		tcpIpApp.sntp.daylightSavings.stop.dayOfWeek="1"
+		tcpIpApp.sntp.daylightSavings.stop.dayOfWeek.lastInMonth="1"/>
+<!-- 07 NTP Settings -->
+

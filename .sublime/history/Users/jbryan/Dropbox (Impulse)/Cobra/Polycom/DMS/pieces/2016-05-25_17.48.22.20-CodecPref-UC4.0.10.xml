@@ -1,0 +1,43 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-15 10:04:33
+  @File Name: 20-CodecPref-UC4.0.10.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:22
+  @Created time: 2016-04-15 10:04:33
+-->
+
+
+<!-- 20 CODEC Pref -->
+	<voice>
+		<voice.codecPref voice.codecPref.G711_A="%CODEC_PRIORITY_G711_A%"/>
+		<voice.codecPref voice.codecPref.G711_Mu="%CODEC_PRIORITY_G711_Mu%"/>
+		<voice.codecPref voice.codecPref.G722="%CODEC_PRIORITY_G722%"/>
+		<voice.codecPref voice.codecPref.G729_AB="%CODEC_PRIORITY_G729_AB%"/>
+		<voice.codecPref voice.codecPref.G719.32kbps="%CODEC_PRIORITY_G719.32kbps%"/>
+		<voice.codecPref voice.codecPref.G719.48kbps="%CODEC_PRIORITY_G719.48kbps%"/>
+		<voice.codecPref voice.codecPref.G719.64kbps="%CODEC_PRIORITY_G719.64kbps%"/>
+		<voice.codecPref voice.codecPref.G7221.16kbps="%CODEC_PRIORITY_G7221.16kbps%"/>
+		<voice.codecPref voice.codecPref.G7221.24kbps="%CODEC_PRIORITY_G7221.24kbps%"/>
+		<voice.codecPref voice.codecPref.G7221.32kbps="%CODEC_PRIORITY_G7221.32kbps%"/>
+		<voice.codecPref voice.codecPref.G7221_C.24kbps="%CODEC_PRIORITY_G7221_C.24kbps%"/>
+		<voice.codecPref voice.codecPref.G7221_C.32kbps="%CODEC_PRIORITY_G7221_C.32kbps%"/>
+		<voice.codecPref voice.codecPref.G7221_C.48kbps="%CODEC_PRIORITY_G7221_C.48kbps%"/>
+		<voice.codecPref voice.codecPref.iLBC.13_33kbps="%CODEC_PRIORITY_iLBC.13_33kbps%"/>
+		<voice.codecPref voice.codecPref.iLBC.15_2kbps="%CODEC_PRIORITY_iLBC.15_2kbps%"/>
+		<voice.codecPref voice.codecPref.Lin16.16ksps="%CODEC_PRIORITY_Lin16.16ksps%"/>
+		<voice.codecPref voice.codecPref.Lin16.32ksps="%CODEC_PRIORITY_Lin16.32ksps%"/>
+		<voice.codecPref voice.codecPref.Lin16.44_1ksps="%CODEC_PRIORITY_Lin16.44_1ksps%"/>
+		<voice.codecPref voice.codecPref.Lin16.48ksps="%CODEC_PRIORITY_Lin16.48ksps%"/>
+		<voice.codecPref voice.codecPref.Lin16.8ksps="%CODEC_PRIORITY_Lin16.8ksps%"/>
+		<voice.codecPref voice.codecPref.Siren14.24kbps="%CODEC_PRIORITY_Siren14.24kbps%"/>
+		<voice.codecPref voice.codecPref.Siren14.32kbps="%CODEC_PRIORITY_Siren14.32kbps%"/>
+		<voice.codecPref voice.codecPref.Siren14.48kbps="%CODEC_PRIORITY_Siren14.48kbps%"/>
+		<voice.codecPref voice.codecPref.Siren22.32kbps="%CODEC_PRIORITY_Siren22.32kbps%"/>
+		<voice.codecPref voice.codecPref.Siren22.48kbps="%CODEC_PRIORITY_Siren22.48kbps%"/>
+		<voice.codecPref voice.codecPref.Siren22.64kbps="%CODEC_PRIORITY_Siren22.64kbps%"/>
+	</voice>
+<!-- 20 CODEC Pref -->
+

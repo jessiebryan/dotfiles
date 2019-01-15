@@ -1,0 +1,44 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 13:44:41
+  @File Name: 12-FeaturesGeneric-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:50
+  @Created time: 2016-04-22 13:44:41
+-->
+
+
+<!-- 12 Features - Generic -->
+	<feature>
+		<feature.urlDialing feature.urlDialing.enabled="0"/>
+		<feature.enhancedFeatureKeys feature.enhancedFeatureKeys.enabled="%FEATURE_ENHANCEDKEYS%"/>
+		<feature.callRecording feature.callRecording.enabled="%FEATURE_CALLRECORDING%"/>
+		<feature.enhancedCallDisplay feature.enhancedCallDisplay.enabled="1"/>
+		<feature.groupCallPickup feature.groupCallPickup.enabled="%FEATURE_GROUPCALLPICKUP%"/>
+		<feature.lastCallReturn feature.lastCallReturn.enabled="%FEATURE_CALLRETURN%"/>
+		<feature.presence feature.presence.enabled="%FEATURE_PRESENCE%"/>
+		<feature.exchangeCalendar feature.exchangeCalendar.enabled="%FEATURE_EXCHANGECAL%"/>
+		<feature.directedCallPickup feature.directedCallPickup.enabled="%FEATURE_DIRECTEDCALLPICKUP%"/>
+	</feature>
+
+	<sec sec.tagSerialNo="1"/>
+
+        <!-- DMS Tags: FEATURE_DIRECTEDCALLPICKUPFAC, (Values: *97 or *65) -->
+        <call call.directedCallPickupString="%FEATURE_DIRECTEDCALLPICKUPFAC%"/>
+
+        <!-- Centralized Call Recording via SIP-REC -->
+        <!-- disabled for now <reg
+                reg.1.serverFeatureControl.callRecording="%FEATURE_CALLRECORDING_BWORKS%"
+                reg.2.serverFeatureControl.callRecording="%FEATURE_CALLRECORDING_BWORKS%"
+        />
+	-->
+	<voIpProt.SIP.serverFeatureControl.callRecording voIpProt.SIP.serverFeatureControl.callRecording="%FEATURE_CALLRECORDING_BWORKS%"/>
+        <!-- Centralized Call Recording via SIP-REC -->
+
+        <!-- DMS Tags: FEATURE_TRANSFERTYPE, (Values: Consultative or Blind) default is Consultative -->
+        <call call.defaultTransferType="%FEATURE_TRANSFERTYPE%" />
+
+<!-- 12 Features - Generic -->
+

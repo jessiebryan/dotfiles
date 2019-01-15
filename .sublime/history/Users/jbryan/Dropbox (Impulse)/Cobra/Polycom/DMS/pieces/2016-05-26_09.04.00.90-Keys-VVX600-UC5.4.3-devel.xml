@@ -1,0 +1,32 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 09:00:58
+  @File Name: 90-Keys-VVX600-UC5.4.3-devel.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:00
+  @Created time: 2016-04-22 09:00:58
+-->
+
+
+<!-- 90 VVX600 Soft Keys -->
+	<!-- DND Soft Key is automatically added by Polycom in 4.1.2 -->
+	<!-- <softkey softkey.1.enable="1" softkey.1.label="DND" softkey.1.action="$FDoNotDisturb$" softkey.1.use.idle="1"/> -->
+	<!-- <softkey softkey.feature.directories="0"/> -->
+
+	<!-- Idle Screen: NewCall Paging DND DIR -->
+	<!-- DIR Key should be removed or updated to use BroadSoft Directory -->
+	<softkey softkey.1.enable="1" softkey.1.label="DIR" softkey.1.action="$FMenu$$FArrowRight$$FArrowRight$$FSelect$$FSelect$" softkey.1.use.idle="1"/>
+
+	<!-- FEATURE_LOCK is a boolean value of 0 or 1, default is 0 -->
+	<phoneLock phoneLock.browserEnabled="0" phoneLock.dndWhenLocked="0" phoneLock.enabled="%FEATURE_LOCK%" phoneLock.idleTimeout="1800" phoneLock.lockState="%FEATURE_LOCK%" phoneLock.powerUpUnlocked="0">
+		<phoneLock.authorized phoneLock.authorized.1.description="Voice Portal" phoneLock.authorized.1.value="*62" phoneLock.authorized.2.description="" phoneLock.authorized.2.value="">
+	</phoneLock>
+	<softkey softkey.2.enable="%FEATURE_LOCK%" softkey.2.label="Lock" softkey.2.action="$FLockPhone$" softkey.2.use.idle="1"/>
+
+
+	<softkey softkey.feature.directories="0"/>
+
+<!-- 90 VVX600 Soft Keys -->
+

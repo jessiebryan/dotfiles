@@ -1,0 +1,19 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-01-29 09:29:14
+  @File Name: 05-MWI-1-12-UC5.4.0AB-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:37:58
+  @Created time: 2016-01-29 09:29:14
+-->
+
+
+<!-- 05 MWI Subscribe *62 Callback -->
+	<msg msg.bypassInstantMessage="1">
+		<mwi
+			msg.mwi.1.subscribe="%BWLINEPORT-1%@%BWHOST-1%" msg.mwi.1.callBackMode="contact" msg.mwi.1.callBack="*62"
+	</msg>
+<!-- 05 MWI Subscribe *62 Callback -->
+

@@ -1,0 +1,30 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-25 15:14:37
+  @File Name: 05-MWI-1-12-UC5.4.3-VVX600.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:37:54
+  @Created time: 2016-04-25 15:14:37
+-->
+
+
+<!-- 05 MWI Subscribe *62 Callback -->
+	<msg msg.bypassInstantMessage="1">
+		<msg.mwi
+			msg.mwi.1.subscribe="%BWLINEPORT-1%@%BWHOST-1%" msg.mwi.1.callBackMode="contact" msg.mwi.1.callBack="*62"
+			msg.mwi.2.subscribe="%BWLINEPORT-2%@%BWHOST-2%" msg.mwi.2.callBackMode="contact" msg.mwi.2.callBack="*62"
+			msg.mwi.3.subscribe="%BWLINEPORT-3%@%BWHOST-3%" msg.mwi.3.callBackMode="contact" msg.mwi.3.callBack="*62"
+			msg.mwi.4.subscribe="%BWLINEPORT-4%@%BWHOST-4%" msg.mwi.4.callBackMode="contact" msg.mwi.4.callBack="*62"
+			msg.mwi.5.subscribe="%BWLINEPORT-5%@%BWHOST-5%" msg.mwi.5.callBackMode="contact" msg.mwi.5.callBack="*62"
+			msg.mwi.6.subscribe="%BWLINEPORT-6%@%BWHOST-6%" msg.mwi.6.callBackMode="contact" msg.mwi.6.callBack="*62"
+			msg.mwi.7.subscribe="%BWLINEPORT-7%@%BWHOST-7%" msg.mwi.7.callBackMode="contact" msg.mwi.7.callBack="*62"
+			msg.mwi.8.subscribe="%BWLINEPORT-8%@%BWHOST-8%" msg.mwi.8.callBackMode="contact" msg.mwi.8.callBack="*62"
+			msg.mwi.9.subscribe="%BWLINEPORT-9%@%BWHOST-9%" msg.mwi.9.callBackMode="contact" msg.mwi.9.callBack="*62"
+			msg.mwi.10.subscribe="%BWLINEPORT-10%@%BWHOST-10%" msg.mwi.10.callBackMode="contact" msg.mwi.10.callBack="*62"
+			msg.mwi.11.subscribe="%BWLINEPORT-11%@%BWHOST-11%" msg.mwi.11.callBackMode="contact" msg.mwi.11.callBack="*62"
+			msg.mwi.12.subscribe="%BWLINEPORT-12%@%BWHOST-12%" msg.mwi.12.callBackMode="contact" msg.mwi.12.callBack="*62" />
+	</msg>
+<!-- 05 MWI Subscribe *62 Callback -->
+

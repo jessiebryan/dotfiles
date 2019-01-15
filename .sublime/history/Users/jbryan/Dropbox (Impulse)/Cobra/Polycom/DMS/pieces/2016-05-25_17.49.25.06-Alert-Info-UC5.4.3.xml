@@ -1,0 +1,28 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-22 09:00:57
+  @File Name: 06-Alert-Info-UC5.4.3.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:25
+  @Created time: 2016-04-22 09:00:57
+-->
+
+
+<!-- 06 Alert-Info -->
+
+	<!-- Bellcore-dr2 is used for Priority-Alert, and Alternate-Numbers "Long-Long" -->
+	<!-- Bellcore-dr3 is used for Alternate Numbers "Short-Short-Long" -->
+	<!-- Bellcore-dr4 is used for Alternate Numbers "Short-Long-Short" -->
+	<!-- Bellcore-dr5 is used for Ring Splash -->
+
+	<alertInfo voIpProt.SIP.alertInfo.1.value="http://127.0.0.1/Bellcore-dr2" voIpProt.SIP.alertInfo.1.class="precedence"
+		voIpProt.SIP.alertInfo.2.value="http://127.0.0.1/Bellcore-dr3" voIpProt.SIP.alertInfo.2.class="internal"
+		voIpProt.SIP.alertInfo.3.value="http://127.0.0.1/Bellcore-dr4" voIpProt.SIP.alertInfo.3.class="external"
+		voIpProt.SIP.alertInfo.4.value="http://127.0.0.1/Bellcore-dr5" voIpProt.SIP.alertInfo.4.class="splash"
+		voIpProt.SIP.alertInfo.5.value="auto-answer" voIpProt.SIP.alertInfo.5.class="autoAnswer"
+		voIpProt.SIP.alertInfo.6.value="ring-answer" voIpProt.SIP.alertInfo.6.class="ringAutoAnswer"
+		voIpProt.SIP.use486forReject="1" />
+<!-- 06 Alert-Info -->
+

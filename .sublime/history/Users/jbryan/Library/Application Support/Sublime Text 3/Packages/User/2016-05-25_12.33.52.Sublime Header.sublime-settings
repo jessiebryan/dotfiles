@@ -1,0 +1,14 @@
+{
+    "name" : "Jessie Bryan",
+    "mail" : "jbryan@impulse.net",
+    "allowed_languages" :
+    [
+        "Python",
+        "JSON",
+        "Markdown"
+    ],
+    "disallowed_languages" :
+    [
+        "C"
+    ],
+}

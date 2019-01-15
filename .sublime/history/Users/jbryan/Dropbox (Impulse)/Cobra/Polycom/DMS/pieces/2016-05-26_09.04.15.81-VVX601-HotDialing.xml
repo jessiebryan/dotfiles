@@ -1,0 +1,23 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 16:18:48
+  @File Name: 81-VVX601-HotDialing.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:15
+  @Created time: 2016-05-03 16:18:48
+-->
+
+
+<!-- 81 Automatic Off-Hook Call Placement - aka Hot-Dialing -->
+	<!-- DMS Tags: HOTDIAL_CONTACT, FEATURE_HOTDIAL (Values: 0 or 1) -->
+
+	<call>
+		<call.autoOffHook call.autoOffHook.1.contact="%HOTDIAL_CONTACT%" call.autoOffHook.1.enabled="%FEATURE_HOTDIAL%" 
+				call.autoOffHook.1.protocol="">
+		</call.autoOffHook>
+	</call>
+
+<!-- 81 Automatic Off-Hook Call Placement - aka Hot-Dialing -->
+

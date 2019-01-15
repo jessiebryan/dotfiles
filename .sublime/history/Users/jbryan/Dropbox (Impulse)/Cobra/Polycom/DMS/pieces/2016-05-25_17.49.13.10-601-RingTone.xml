@@ -1,0 +1,22 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:17
+  @File Name: 10-601-RingTone.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:13
+  @Created time: 2015-12-15 16:37:17
+-->
+
+
+<!-- 10 Enable Polycom-Provided Ringers "Warble" and "LoudRing" -->
+	<saf>
+		<saf saf.1="" />
+		<saf saf.2="http://impvoip.net/dms/spip601/Warble.wav" />
+		<saf saf.3="http://impvoip.net/dms/spip601/LoudRing.wav" />
+                <saf saf.4="%FEATURE_RINGTONE1%" />
+                <saf saf.5="%FEATURE_RINGTONE2%" />
+	</saf>
+<!-- 10 Enable Polycom-Provided Ringers "Warble" and "LoudRing" -->
+

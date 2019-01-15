@@ -1,0 +1,21 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-09 09:01:05
+  @File Name: 27-acousticFencing-UC5.4.1AA-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:05:00
+  @Created time: 2016-02-09 09:01:05
+-->
+
+
+<!-- 27 VVX Acoustic Fencing -->
+
+<!-- FEATURE_NOISEBLOCK - valid values: 0 or 1 default: 0 -->
+
+<!-- Accoustic Fence - NoiseBlock -->
+<voice.ns voice.ns.hf.block="%FEATURE_NOISEBLOCK%"/>
+
+<!-- 27 VVX Acoustic Fencing -->
+

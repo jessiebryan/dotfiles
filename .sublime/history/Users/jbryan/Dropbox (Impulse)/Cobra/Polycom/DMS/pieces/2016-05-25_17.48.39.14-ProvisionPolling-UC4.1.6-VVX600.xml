@@ -1,0 +1,19 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:49:28
+  @File Name: 14-ProvisionPolling-UC4.1.6-VVX600.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:48:39
+  @Created time: 2015-12-15 16:49:28
+-->
+
+
+<!-- 14 Phones scheduled to poll randomly between 20:00 to 03:59 -->
+
+	<prov.polling prov.polling.enabled="1" prov.polling.mode="random" prov.polling.time="20:00" prov.polling.period="86400" prov.polling.timeRandomEnd="03:59">
+	</prov.polling>
+
+<!-- 14 Phones scheduled to poll randomly between 20:00 to 03:59 -->
+

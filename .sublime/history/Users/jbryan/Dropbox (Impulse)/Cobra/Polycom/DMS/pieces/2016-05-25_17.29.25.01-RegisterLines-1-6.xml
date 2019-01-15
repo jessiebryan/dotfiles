@@ -1,0 +1,126 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-25 17:26:15
+  @File Name: 01-RegisterLines-1-6.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:29:25
+  @Created time: 2016-05-25 17:26:15
+-->
+
+
+<!-- DMS Tags: FEATURE_REG1LINEKEYS, (Values: varies based on model default is 1) RT336423 -->
+<!-- DMS Tags: FEATURE_REG2LINEKEYS, (Values: varies based on model default is 1) RT336423 -->
+
+<!-- 01 Call Registrations -->
+	<call call.callsPerLineKey="%CALLSPERLINEKEY%" call.hold.localReminder.enabled="1" />
+
+	<reg
+		reg.1.displayName="%BWCLID-1%"
+		reg.1.address="%BWLINEPORT-1%"
+		reg.1.server.1.address="%BWHOST-1%"
+		reg.1.server.1.transport="%TRANSPORT%"
+		reg.1.auth.password="%BWAUTHPASSWORD-1%"
+		reg.1.auth.userId="%BWAUTHUSER-1%"
+		reg.1.label="%BWEXTENSION-1%"
+		reg.1.type="%BWSHAREDLINE-1%"
+		reg.1.acd-agent-available="%FEATURE_ACD%"
+		reg.1.acd-login-logout="%FEATURE_ACD%"
+		reg.1.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.1.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.1.bargeInEnabled="%BWSCA-BRIDGING-BINARY-1%"
+                reg.1.lineKeys="%FEATURE_REG1LINEKEYS%"
+		reg.1.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.1.outboundProxy.port="0"
+		reg.1.outboundProxy.transport="%TRANSPORT%"
+		
+		reg.2.displayName="%BWCLID-2%"
+		reg.2.address="%BWLINEPORT-2%"
+		reg.2.server.1.address="%BWHOST-2%"
+		reg.2.server.1.transport="%TRANSPORT%"
+		reg.2.auth.password="%BWAUTHPASSWORD-2%"
+		reg.2.auth.userId="%BWAUTHUSER-2%"
+		reg.2.label="%BWEXTENSION-2%"
+		reg.2.type="%BWSHAREDLINE-2%"
+		reg.2.acd-agent-available="%FEATURE_ACD%"
+		reg.2.acd-login-logout="%FEATURE_ACD%"
+		reg.2.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.2.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.2.bargeInEnabled="%BWSCA-BRIDGING-BINARY-2%"
+                reg.2.lineKeys="%FEATURE_REG2LINEKEYS%"
+		reg.2.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.2.outboundProxy.port="0"
+		reg.2.outboundProxy.transport="%TRANSPORT%"
+		
+		reg.3.displayName="%BWCLID-3%"
+		reg.3.address="%BWLINEPORT-3%"
+		reg.3.server.1.address="%BWHOST-3%"
+		reg.3.server.1.transport="%TRANSPORT%"
+		reg.3.auth.password="%BWAUTHPASSWORD-3%"
+		reg.3.auth.userId="%BWAUTHUSER-3%"
+		reg.3.label="%BWEXTENSION-3%"
+		reg.3.type="%BWSHAREDLINE-3%"
+		reg.3.acd-agent-available="%FEATURE_ACD%"
+		reg.3.acd-login-logout="%FEATURE_ACD%"
+		reg.3.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.3.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.3.bargeInEnabled="%BWSCA-BRIDGING-BINARY-3%"
+		reg.3.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.3.outboundProxy.port="0"
+		reg.3.outboundProxy.transport="%TRANSPORT%"
+		
+		reg.4.displayName="%BWCLID-4%"
+		reg.4.address="%BWLINEPORT-4%"
+		reg.4.server.1.address="%BWHOST-4%"
+		reg.4.server.1.transport="%TRANSPORT%"
+		reg.4.auth.password="%BWAUTHPASSWORD-4%"
+		reg.4.auth.userId="%BWAUTHUSER-4%"
+		reg.4.label="%BWEXTENSION-4%"
+		reg.4.type="%BWSHAREDLINE-4%"
+		reg.4.acd-agent-available="%FEATURE_ACD%"
+		reg.4.acd-login-logout="%FEATURE_ACD%"
+		reg.4.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.4.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.4.bargeInEnabled="%BWSCA-BRIDGING-BINARY-4%"
+		reg.4.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.4.outboundProxy.port="0"
+		reg.4.outboundProxy.transport="%TRANSPORT%"
+		
+		reg.5.displayName="%BWCLID-5%"
+		reg.5.address="%BWLINEPORT-5%"
+		reg.5.server.1.address="%BWHOST-5%"
+		reg.5.server.1.transport="%TRANSPORT%"
+		reg.5.auth.password="%BWAUTHPASSWORD-5%"
+		reg.5.auth.userId="%BWAUTHUSER-5%"
+		reg.5.label="%BWEXTENSION-5%"
+		reg.5.type="%BWSHAREDLINE-5%"
+		reg.5.acd-agent-available="%FEATURE_ACD%"
+		reg.5.acd-login-logout="%FEATURE_ACD%"
+		reg.5.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.5.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.5.bargeInEnabled="%BWSCA-BRIDGING-BINARY-5%"
+		reg.5.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.5.outboundProxy.port="0"
+		reg.5.outboundProxy.transport="%TRANSPORT%"
+		
+		reg.6.displayName="%BWCLID-6%"
+		reg.6.address="%BWLINEPORT-6%"
+		reg.6.server.1.address="%BWHOST-6%"
+		reg.6.server.1.transport="%TRANSPORT%"
+		reg.6.auth.password="%BWAUTHPASSWORD-6%"
+		reg.6.auth.userId="%BWAUTHUSER-6%"
+		reg.6.label="%BWEXTENSION-6%"
+		reg.6.type="%BWSHAREDLINE-6%"
+		reg.6.acd-agent-available="%FEATURE_ACD%"
+		reg.6.acd-login-logout="%FEATURE_ACD%"
+		reg.6.serverFeatureControl.dnd="%FEATURE_SYNC_DND%"
+		reg.6.serverFeatureControl.cf="%FEATURE_SYNC_CF%"
+		reg.6.bargeInEnabled="%BWSCA-BRIDGING-BINARY-6%"
+		reg.6.outboundProxy.address="%OUTBOUND_PROXY%"
+		reg.6.outboundProxy.port="0"
+		reg.6.outboundProxy.transport="%TRANSPORT%"
+		
+	/>
+<!-- 01 Call Registrations -->
+

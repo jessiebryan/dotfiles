@@ -1,0 +1,20 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:37:47
+  @File Name: 03-NWay-UC4.1.6-VVX310.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:34:24
+  @Created time: 2015-12-15 16:37:47
+-->
+
+
+<!-- 03 N-Way Conferencing -->
+	<voIpProt.SIP.conference voIpProt.SIP.conference.address="%CONFERENCE%"/>
+
+	<feature>
+		<feature.nWayConference feature.nWayConference.enabled="%FEATURE_NWAYCONF%"/>
+	</feature>
+<!-- 03 N-Way Conferencing -->
+

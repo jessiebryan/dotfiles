@@ -1,0 +1,24 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-20 10:34:06
+  @File Name: 79-UC5.4.2AB-TRIO8800.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:40
+  @Created time: 2016-04-20 10:34:06
+-->
+
+
+<!-- 79 Real Presence 8800 -->
+
+	<!-- Pairing -->
+	<!--Ultrasonic Pairing -->
+	<!-- 1 = Disabled, 2 = Manual -->
+	<smartPairing.mode smartPairing.mode="%RP8800_SMARTPAIRING%"/>
+
+	<!-- The relative volume to use for the SmartPairing ultrasonic beacon. -->
+	<!-- Default is 6, valid values = 1 - 10 -->
+	<smartPairing.volume smartPairing.volume="%RP8800_SMARTPAIRING_VOLUME%"/>
+
+<!-- 79 Real Presence 8800 -->

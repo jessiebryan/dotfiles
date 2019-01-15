@@ -1,0 +1,16 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:36:54
+  @File Name: 10-601-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:14
+  @Created time: 2015-12-15 16:36:54
+-->
+
+
+<!-- 10 Logo -->
+	<idleDisplay mb.idleDisplay.home="%LOGOURL_601%" mb.idleDisplay.refresh="7200" />
+<!-- 10 Logo -->
+

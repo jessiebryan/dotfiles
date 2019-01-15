@@ -1,0 +1,29 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-02-09 09:01:05
+  @File Name: 90-Keys-TRIO8800-UC5.4.1AA.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:04:09
+  @Created time: 2016-02-09 09:01:05
+-->
+
+
+<!-- 90 TRIO8800 Soft Keys -->
+
+<!-- DIR SoftKey for ClearStar Directory -->
+<softkey softkey.1.enable="1" softkey.1.label="DIR" softkey.1.action="$FDirectories$" softkey.1.use.idle="1"/>
+<softkey softkey.feature.directories="0"/>
+
+
+<!-- JB20150528 - RT374171 -->
+<softkey softkey.2.enable="%FEATURE_TOVMAIL%" softkey.2.label="ToVMail" softkey.2.action="^*55$P1N4$$Tinvite$" softkey.2.use.active="1"/>
+<softkey softkey.2.insert="4"/>
+<efk efk.efkprompt.1.status="1" efk.efkprompt.1.label="Exten" efk.efkprompt.1.type="numeric" efk.efkprompt.1.userfeedback="visible"/>
+<!-- JB20150528 - RT374171 -->
+
+
+
+<!-- 90 TRIO8800 Soft Keys -->
+

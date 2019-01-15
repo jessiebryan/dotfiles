@@ -1,0 +1,29 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-05-03 15:19:24
+  @File Name: 97-Logging-UC4.0.10.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:03:58
+  @Created time: 2016-05-03 15:19:24
+-->
+
+
+<!-- 97 Logging -->
+
+        <logging>
+                <render log.render.level="1"
+                        log.render.type="2"
+                        log.render.realtime="1"
+                        log.render.stdout="1"
+                        log.render.file="1"
+                        log.render.file.size="16"
+                        log.render.file.upload.period="3600"
+                        log.render.file.upload.append="1"
+                        log.render.file.upload.append.sizeLimit="16384"
+                        log.render.file.upload.append.limitMode="delete"
+                />
+        </logging>
+
+<!-- 97 Logging -->

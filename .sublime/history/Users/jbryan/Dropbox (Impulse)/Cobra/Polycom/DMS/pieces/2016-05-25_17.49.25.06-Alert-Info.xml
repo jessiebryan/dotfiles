@@ -1,0 +1,22 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:36:56
+  @File Name: 06-Alert-Info.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:25
+  @Created time: 2015-12-15 16:36:56
+-->
+
+
+<!-- 06 Alert-Info -->
+	<alertInfo voIpProt.SIP.alertInfo.1.value="http://127.0.0.1/Bellcore-dr2" voIpProt.SIP.alertInfo.1.class="8"
+		voIpProt.SIP.alertInfo.2.value="http://127.0.0.1/Bellcore-dr3" voIpProt.SIP.alertInfo.2.class="9"
+		voIpProt.SIP.alertInfo.3.value="http://127.0.0.1/Bellcore-dr4" voIpProt.SIP.alertInfo.3.class="10"
+		voIpProt.SIP.alertInfo.4.value="http://127.0.0.1/Bellcore-dr5" voIpProt.SIP.alertInfo.4.class="11"
+		voIpProt.SIP.alertInfo.5.value="auto-answer" voIpProt.SIP.alertInfo.5.class="3"
+		voIpProt.SIP.alertInfo.6.value="ring-answer" voIpProt.SIP.alertInfo.6.class="4"
+		voIpProt.SIP.use486forReject="1" />
+<!-- 06 Alert-Info -->
+

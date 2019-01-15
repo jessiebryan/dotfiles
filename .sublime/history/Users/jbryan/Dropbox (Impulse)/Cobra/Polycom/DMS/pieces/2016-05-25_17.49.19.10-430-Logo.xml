@@ -1,0 +1,26 @@
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2015-12-15 16:36:54
+  @File Name: 10-430-Logo.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-25 17:49:19
+  @Created time: 2015-12-15 16:36:54
+-->
+
+
+<!-- 10 Logo -->
+        <bitmaps>
+                <IP_400 bitmap.IP_400.62.name="%LOGO_430%" />
+        </bitmaps>
+
+        <indicators ind.idleDisplay.enabled="1">
+                <Animations>
+                        <IP_400>
+                                <IDLE_DISPLAY ind.anim.IP_400.29.frame.1.bitmap="%LOGO_430%" />
+                        </IP_400>
+                </Animations>
+        </indicators>
+<!-- 10 Logo -->
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<!--
+  @Author: jbryan jbryan@impulse.net
+  @Date:   2016-04-26 17:15:44
+  @File Name: UC4.0.10-header.xml
+  @Last modified by:   jbryan
+  @Last Modified time: 2016-05-26 09:02:55
+  @Created time: 2016-04-26 17:15:44
+-->
+
+
+
+	<!-- FILE GENERATED ON %BWTIMESTAMP% -->
+
+        <!-- Impulse Edits | 2016.04.01JB -->
+        <!-- Project SHA2 -->
+	<!-- Impulse Device Support | 2016.04.01JB -->
+	<!-- Support for UC4.0.10 -->
+	<!-- SoundPoint IP 321 -->
+	<!-- SoundPoint IP 331 -->
+	<!-- SoundPoint IP 335 -->
+	<!-- SoundPoint IP 450 -->
+	<!-- SoundPoint IP 550 -->
+	<!-- SoundPoint IP 560 -->
+	<!-- SoundPoint IP 650 -->
+	<!-- SoundPoint IP 670 -->
+	<!-- SoundStation IP 5000 -->
+	<!-- SoundStation IP 6000 -->
+	<!-- SoundStation IP 7000 -->
+
+
+        <!-- Impulse Techsupport data -->
+	<!-- 
+	<cobra.impulse>	
+	 <impulse.broadworks impulse.broadworks.enterprise.name="%BWENTERPRISE-1%"/>
+	 <impulse.broadworks impulse.broadworks.enterprise.id="%BWENTERPRISEID-1%"/>
+	 <impulse.broadworks impulse.broadworks.group.id="%BWGROUPID-1%"/>
+	 <impulse.broadworks impulse.broadworks.group.name="%BWGROUP-1%"/>
+	 <impulse.broadworks impulse.broadworks.device.address="%BWMACADDRESS%"/>
+	</cobra.impulse>	
+	-->              
+        <!-- Impulse Techsupport data -->
+
+	<!-- Generated reg-basic.cfg Configuration File -->
+	<polycomConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="polycomConfig.xsd">
+
